@@ -1,23 +1,40 @@
 <!DOCTYPE html>
 <html>
- <style>
-  .content {
-  width: 1000px;
-  margin: auto;
-}
-
-@font-face { font-family: Chapaza; src: url('Figtree.ttf'); } 
-@font-face { font-family: Figtree; src: url('Figtree.ttf'); }
+<body style="
+background-color: #e0f0f0;
+">
+<style>
+      @font-face { font-family: Chapaza; src: url('Figtree.ttf'); } 
+      @font-face { font-family: Figtree; src: url('Figtree.ttf'); }
       h1 {
          font-family: Chapaza
       }
       h2 {
-         font-family: Chapaza
+         font-family: Chapaza;
+border-bottom: 1px solid black
       }
       p {
 	font-family: Figtree;
       }
+</style>
+<style>
+hr {
+color=black;
+size=1px;
+}
+</style>
+<style>
+.content {
+  max-width: 1000px;
+  margin: auto;
+}
+</style>
 
+<style>
+p.ul {border-bottom: 1px solid black}
+</style>
+
+<style>
 a.file {color:blue;}
 a.file:link  {text-decoration: none; color: #0066CC;}
 a.file:visited {text-decoration: none; color: #0066CC;}
@@ -29,12 +46,26 @@ a.person:link {text-decoration: underline; color: black;}
 a.person:visited {text-decoration: underline; color: black;}
 a.person:hover {text-decoration: underline; color: #0066CC;}
 a.person:active {text-decoration: none; color: #0066CC;}
- </style>
-<body style="background-color: #e0f0f0">
+</style>
+
+<style>
+hr {
+border: none;
+color:#000000;
+background-color:#000000;
+height:1px;
+}
+</style>
+
+</head>
+
+<body>
 <div class="content">
  <title>Andres Klene</title>
 <link rel="icon" type="image/x-icon" href="granada.png">
-<h1>Andres Klene</h1>
+<h1>Andres Klene*</h1>
+<p>*Depending on which government you ask, my legal name is Andrés Klene Sánchez or Andres Klene-Sanchez. </p>
+<hr>
 <p>Welcome! I recently completed my undergraduate Master's degree at the University of Oxford.
 </p>
 <p style="text-align: center">
@@ -43,14 +74,14 @@ a.person:active {text-decoration: none; color: #0066CC;}
 <p> Please note that this photo is quite old. </p>
 
 <h2> Mathematical interests </h2>
-<p>A couple of years ago, I was taken by symplectic geometry. So much so that, in my third year of undergrad, I wrote an essay on the technique of pseudo-holomorphic curves. I was very lucky to be supervised by Dr. Guillem Cazassus, who invited me to learn some Floer theory at the <a href="https://lrobert.perso.math.cnrs.fr/BTW3/btw3.html" class="person">BTW3 workshop</a>.
+<p>A couple of years ago, I was taken by symplectic geometry. So much so that, in my third year of undergrad, I wrote an essay on the technique of pseudo-holomorphic curves. I was very lucky to be supervised by Dr. Guillem Cazassus, who invited me to learn some Floer theory at the <a href="https://lrobert.perso.math.cnrs.fr/BTW3/btw3.html" class="person">BTW3 workshop</a> in Marseille.
 </p><p> With the basic analytic foundations under my belt, I did a summer project on some algebraic and topological aspects of the subject; more specifically, (derived) Fukaya categories associated to Lefschetz fibrations. 
 These objects have strong links to the homological mirror symmetry of Fano varieties, which became my focus. 
 </p><p>
-This project opened my eyes to the interplay between geometry and theoretical physics. I wrote my master's dissertation on geometric quantisation in keeping with this theme. Meanwhile, I moved away from analysis and towards categorical methods; the following summer I studied higher parallel transport.
+This project opened my eyes to the interplay between geometry and theoretical physics. I wrote my master's dissertation on geometric quantisation in keeping with this theme. Meanwhile, I moved away from analysis and towards categorical methods; the following summer I learned about gerbes and higher parallel transport.
 </p>
 <h1>Stuff I've written</h1>
-<p>Here is a list of the written work I completed at—and after—university. Some have received  post-edits to fix typos and (in the case of summer projects) provide clarity. There is no claim to originality of content.
+<p>Here is a list of the written work I completed at—and after—university. Some have received  post-edits to fix typos and (in the case of summer projects) provide clarity. There is no claim to any originality of content.
 </p>
 <h2>Theses</h2>
 <p><b>Geometric quantisation and Hamiltonian cobordism </b><br>
@@ -65,7 +96,7 @@ Topics: intersections of holomorphic curves in 4-manifolds, Banach bundles and S
 </p>
 
 <h2> Summer projects</h2>
-<p> <b>Higher gerbes in algebraic topology of manifolds</b><br> Summer project; unsupervised. <br> 
+<p> <b>Gerbes and higher geometric categories</b><br> Summer project; unsupervised. <br> 
 Topics: higher parallel transport, sheaves of groupoids, ...
 <br>[<a href="url" class="file">pdf</a>]</p>
 
@@ -82,13 +113,13 @@ Topics: random walks on fractals, numerical methods, combinatorics, harmonic ana
 <h2> Lecture notes</h2>
 <p> 
 <b> Commutative Algebra </b> <br>
-I wrote the official notes for the Oxford course on commutative algebra lectured by <a href="https://people.maths.ox.ac.uk/kielak/" class="person">Prof. Dawid Kielak</a>. These are based on notes by the previous lecturer <a href="https://people.maths.ox.ac.uk/rossler/" class="person">Prof. Damian Rössler</a>, with input from <a href="https://agag-gathmann.math.rptu.de/class/commalg-2013/commalg-2013.pdf" class="file">Gathmann's notes</a> and various student suggestions. <br>
+I am writing the official notes for the Oxford course on commutative algebra lectured by <a href="https://people.maths.ox.ac.uk/kielak/" class="person">Prof. Dawid Kielak</a>. These are based on notes by the previous lecturer <a href="https://people.maths.ox.ac.uk/rossler/" class="person">Prof. Damian Rössler</a>, with input from <a href="https://agag-gathmann.math.rptu.de/class/commalg-2013/commalg-2013.pdf" class="file">Gathmann's notes</a> and various student suggestions. <br>
 [<a href="url" class="file">pdf</a>]
 </p>
 <h2> Other?</h2>
 <p>
 <b> Stable Homotopy and Generalised Homology </b> <br>
-I volunteered as part of the <a href="https://aareyanmanzoor.github.io/Texromancers.html" class="person">TeXromancers</a> (now disbanded). I contributed to the electronic re-typesetting of a classic algebraic topology textbook by J. F. Adams. More importantly, I came up with the name "TeXromancers"!<br>
+I volunteered as part of the <a href="https://aareyanmanzoor.github.io/Texromancers.html" class="person">TeXromancers</a> (now disbanded), who electronically re-typeset the classic algebraic topology textbook by J. F. Adams. More importantly, I came up with the name "TeXromancers"!<br>
 [<a href="https://people.math.rochester.edu/faculty/doug/otherpapers/Adams-SHGH-latex.pdf" class="file">pdf</a>]
 </p>
 
