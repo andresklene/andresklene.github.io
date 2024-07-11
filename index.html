@@ -16,7 +16,9 @@ margin-bottom:25px;
 font-weight:normal;
 font-size: 140%
       }
-h3 {font-family: Figtree; font-size: 120%}
+h3 {font-family: Figtree; font-size: 120%;
+margin-top: 0px;
+margin-bottom: 0px;}
 h4 {font-family: Figtree; font-size: 100%; margin-bottom: -10px;}
       p {
 	font-family: Figtree;
@@ -26,12 +28,13 @@ font-size: 100%
 
 
 .header {
-height: 52px;
-  padding: 1px;
+height: 54px;
   background: #eaecf0;
   color: #4d4e4f;
   font-size: 120%;
 box-shadow: inset 0px 0px 4px 0px #c8ccd1;
+display: flex;
+align-items: center;
 }
 
 body {
@@ -73,7 +76,8 @@ margin-bottom: 30px;
 font-size: 80%; font-weight:normal; color: grey
 }
 
-a:link, a:visited {text-decoration: none; color: ##3366cc;}
+a:link {text-decoration: none; color: ##3366cc;}
+a:visited {text-decoration: none; color: ##3366cc;}
 a:hover {text-decoration: underline; color: ##3366cc;}
 a:active {text-decoration: underline; color: #274581;}
 
@@ -85,6 +89,31 @@ height:1px;
 
 table {
   width: 100%;
+font-family: Figtree;
+}
+
+.Button{
+    display:block;
+    height:30px;
+    width:200px;
+    color:#757575;
+    text-align:left;
+    font-family: Figtree;
+    background: #ffffff;
+    border-radius: 1.5px;
+text-decoration: none;
+box-shadow: 0px 0px 4px 0px #c8ccd1;
+font-size: 90%;
+    }
+a.Button:hover{
+    background: #f8f9fa;
+text-decoration: none;
+border: 10px inset solid blue
+    }
+li{
+  list-style:none;
+  display:inline-block;
+  margin: 10px;
 }
 
 </style>
@@ -93,8 +122,11 @@ table {
 <head>
  <div class="header">
 <div class="content">
+        <li><a class="Button" href="#about">Homepage</a></li>
+        <li><a class="Button" href="#projects">Projects and theses</a></li>
+        <li><a class="Button" href="#notes">Lecture notes</a></li>
+<li><a class="Button" href="#misc">Miscellaneous</a></li>
 </div>
-
 </div> 
 </head>
 
@@ -109,15 +141,20 @@ table {
 <div class="box" style="float: right; text-align: center;">
 <h3>Contact and info</h3><hr>
 <img src="portrait.jpg" style="width: 250px;">
+<br><span style="font-family: Figtree; font-size:90%">This photo is quite old</span>
 <hr>
-<p><b>Gmail:</b> andres.klene.sanchez </p>
+<table style="text-align: left; font-size:90%">
+<th style="width: 40%">Gmail</th> <td> andres.klene.sanchez </td>
+</table>
 <hr>
-<p>Nationality: British, Spanish, German</p>
+<table style="text-align: left; font-size:90%">
+<th style="width: 40%">Nationality</th> <td> British, Spanish, German</td>
+</table>
 </div>
 <p>Welcome! I recently completed my MMath in Mathematics at the University of Oxford. Please note that the adjacent photo is quite old.
 </p>
 <p>
-A couple of years ago, I got into symplectic geometry and wrote my third-year essay on pseudo-holomorphic curves. I was very lucky to be supervised by Dr. Guillem Cazassus, who invited me to learn some Floer theory at the <a href="https://lrobert.perso.math.cnrs.fr/BTW3/btw3.html" class="person">BTW3 workshop</a> in Marseille. Equipped with the analytic foundations, I then studied (derived) Fukaya categories associated to Lefschetz fibrations and their role in the homological mirror symmetry of Fano varieties. This was a summer project with Prof. Jason Lotay.</p><p> This project opened my eyes to the interplay between geometry and theoretical physics. I wrote my master's dissertation on <a href="https://en.wikipedia.org/wiki/Geometric_quantization">geometric quantisation</a> in keeping with this theme. I am currently learning some algebraic topology and <a href="https://en.wikipedia.org/wiki/Higher_gauge_theory">higher gauge theory</a>.
+A couple of years ago, I got into symplectic geometry and wrote my third-year essay on pseudo-holomorphic curves. I was very lucky to be supervised by <a href="https://portal.findresearcher.sdu.dk/en/persons/cazassus">Dr. Guillem Cazassus</a>, who invited me to learn some Floer theory at the <a href="https://lrobert.perso.math.cnrs.fr/BTW3/btw3.html" class="person">BTW3 workshop</a> in Marseille. Equipped with these analytic foundations, I did a summer project with <a href="https://people.maths.ox.ac.uk/lotay/">Prof. Jason Lotay</a>, where I studied (derived) Fukaya categories associated to Lefschetz fibrations and their role in the homological mirror symmetry of Fano varieties.</p><p> This really opened my eyes to the [insert words] geometry and theoretical physics. I wrote my master's dissertation on <a href="https://en.wikipedia.org/wiki/Geometric_quantization">geometric quantisation</a> in keeping with this theme. I am currently learning some algebraic topology and <a href="https://en.wikipedia.org/wiki/Higher_gauge_theory">higher gauge theory</a>.
 </p>
 <h2 id="projects">Projects and theses</h2>
 <hr>
@@ -131,11 +168,11 @@ Topics: higher parallel transport, sheaves of groupoids, ...
 <p> Part C Dissertation (master's thesis) supervised by <a href="https://www.jesus.ox.ac.uk/about-jesus-college/our-community/people/professor-andrew-dancer/">Prof. Andrew Dancer</a>.<br> Topics: Lie group actions on symplectic manifolds, toric manifolds, Chern–Weil theory, Dolbeault cohomology, virtual Hilbert representations, Hamiltonian cobordism, 'quantisation commutes with reduction'.
 
 <p> <b>Fukaya–Seidel categories and Fano HMS <span class="smalllink">[ <a href="url">pdf </a>]</span> <span class="smalllink">[ <a href="https://people.maths.ox.ac.uk/lotay/Andres_poster_EPSRC.pdf">poster</a>]</span></b> <br> 
-Summer project supervised by <a href="https://people.maths.ox.ac.uk/lotay/">Prof. Jason Lotay</a>; funded by the EPSRC. <br> 
+Summer project supervised by Prof. Jason Lotay; funded by the EPSRC. <br> 
 Topics: Triangulated A<sub>∞</sub>-categories, symplectic Lefschetz fibrations, generalised Dehn twists, toric varieties, scheme-theoretic blowups, mutations of exceptional collections in the derived category of coherent sheaves.
 
 <h4> Pseudo-holomorphic curves in the complex projective plane <span class="smalllink">[ <a href="url">pdf </a>]</span></h4>
-<p> Part B Essay (bachelor's thesis) supervised by <a href="https://portal.findresearcher.sdu.dk/en/persons/cazassus">Dr. Guillem Cazassus</a>. <br>
+<p> Part B Essay (bachelor's thesis) supervised by Dr. Guillem Cazassus. <br>
 Topics: intersections of holomorphic curves in 4-manifolds, Banach bundles and Sobolev spaces, elliptic differential operators, Fredholm index theory, energy methods and Gromov compactness.
 </p>
 
@@ -156,7 +193,7 @@ I was a founding member of the <a href="https://aareyanmanzoor.github.io/Texroma
 </p>
 
 <p>
-I also wrote an expository article called <a href="https://www.invariants.org.uk/wp-content/uploads/2023/02/InvariantMT22.pdf">Associative Metrics</a> for the University of Oxford's mathematics society, <a href="https://www.invariants.org.uk/">The Invariants</a>. To be honest, it's not very good; I agreed to write the article under the impression that I had proved something (a simpler answer to <a href="https://mathoverflow.net/q/16214">this question</a>) which turned out to be nonsense.
+I also wrote an expository article called <a href="https://www.invariants.org.uk/wp-content/uploads/2023/02/InvariantMT22.pdf">Associative Metrics</a> for the University of Oxford's mathematics society, <a href="https://www.invariants.org.uk/">The Invariants</a>. To be honest, it's not very good; I agreed to write the article under the impression that I had proved a simpler answer to <a href="https://mathoverflow.net/q/16214">this MathOverflow question</a>, which turned out to be nonsense.
 </p>
 </div>
 <footer>
