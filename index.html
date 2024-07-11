@@ -1,20 +1,24 @@
 <!DOCTYPE html>
 <html>
-<body style="
-background-color: #e0f0f0;
-">
+
+<body style="background-color: #ffffff;">
 <style>
-      @font-face { font-family: Chapaza; src: url('Figtree.ttf'); } 
+      @font-face { font-family: wSerif; src: url('wSerif.ttf'); } 
+      @font-face { font-family: FreeSet; src: url('FreeSet.ttf'); }
       @font-face { font-family: Figtree; src: url('Figtree.ttf'); }
       h1 {
-         font-family: Chapaza
+         font-family: wSerif; font-weight:normal;
+font-size: 160%
       }
       h2 {
-         font-family: Chapaza;
-border-bottom: 1px solid black
+         font-family: wSerif;
+font-weight:normal;
+font-size: 140%
       }
       p {
-	font-family: Figtree;
+	font-family: FreeSet;
+line-height: 1.5;
+font-size: 100%
       }
 </style>
 <style>
@@ -32,6 +36,12 @@ size=1px;
 
 <style>
 p.ul {border-bottom: 1px solid black}
+
+topnav
+{
+   position: fixed;
+   top: 0px;
+}
 </style>
 
 <style>
@@ -51,29 +61,32 @@ a.person:active {text-decoration: none; color: #0066CC;}
 <style>
 hr {
 border: none;
-color:#000000;
-background-color:#000000;
+background-color:#eaecf0;
 height:1px;
 }
+.darker {background-color: #c8ccd1}
 </style>
-
-</head>
-
 <body>
 <div class="content">
  <title>Andres Klene</title>
 <link rel="icon" type="image/x-icon" href="granada.png">
-<h1>Andres Klene*</h1>
-<p>*Depending on which government you ask, my legal name is Andrés Klene Sánchez or Andres Klene-Sanchez. </p>
+<h1>Andalé Mono</h1>
 <hr>
+<p style = "color: #54595d; font-weight: medium">*My legal name is Andrés Klene Sánchez or Andres Klene-Sanchez, depending on which government you ask. <br> <nav>
+  <a href="/html/">HTML</a> |
+  <a href="/css/">CSS</a> |
+  <a href="/js/">JavaScript</a> |
+  <a href="/python/">Python</a>
+</nav></p>
+<hr class="darker">
 <p>Welcome! I recently completed my undergraduate Master's degree at the University of Oxford.
 </p>
 <p style="text-align: center">
 <img src="portrait.jpg" style="max-width: 500px">
 </p>
 <p> Please note that this photo is quite old. </p>
-
 <h2> Mathematical interests </h2>
+<hr>
 <p>A couple of years ago, I was taken by symplectic geometry. So much so that, in my third year of undergrad, I wrote an essay on the technique of pseudo-holomorphic curves. I was very lucky to be supervised by Dr. Guillem Cazassus, who invited me to learn some Floer theory at the <a href="https://lrobert.perso.math.cnrs.fr/BTW3/btw3.html" class="person">BTW3 workshop</a> in Marseille.
 </p><p> With the basic analytic foundations under my belt, I did a summer project on some algebraic and topological aspects of the subject; more specifically, (derived) Fukaya categories associated to Lefschetz fibrations. 
 These objects have strong links to the homological mirror symmetry of Fano varieties, which became my focus. 
@@ -131,7 +144,7 @@ I wrote an expository article for the University of Oxford's mathematics society
 
 <h1> Contact </h1>
 <p>
-Email: <b>andres.klene.sanchezⒶgmail.com</b>. <br>(For potentially better results, replace Ⓐ with @.)
+Gmail: andres.klene.sanchez
 </p>
 </div>
 </body>
