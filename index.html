@@ -1,14 +1,15 @@
 <!DOCTYPE html>
 <html>
 
-<body style="background-color: #ffffff;">
 <style>
       @font-face { font-family: wSerif; src: url('wSerif.ttf'); } 
+@font-face { font-family: Figtree; src: url('Figtree.ttf'); }
       @font-face { font-family: FreeSet; src: url('FreeSet.ttf'); }
-      @font-face { font-family: Figtree; src: url('Figtree.ttf'); }
       h1 {
          font-family: wSerif; font-weight:normal;
-font-size: 160%
+font-size: 160%;
+margin-top: 25px;
+margin-bottom:25px;
       }
       h2 {
          font-family: wSerif;
@@ -22,15 +23,30 @@ h4 {font-family: Figtree; font-size: 100%; margin-bottom: -10px;}
 line-height: 1.7;
 font-size: 100%
       }
-</style>
 
-<style>
-hr {
-color=black;
-size=1px;
+
+.header {
+height: 52px;
+  padding: 1px;
+  background: #eaecf0;
+  color: #4d4e4f;
+  font-size: 120%;
+box-shadow: inset 0px 0px 4px 0px #c8ccd1;
 }
-</style>
-<style>
+
+body {
+  padding: 0;
+  margin: 0;
+background-color: #ffffff;
+}
+
+footer {
+  padding: 3px;
+  background: #eaecf0;
+  color: #54595d;
+border: 1px solid none none none #c8ccd1;
+}
+
 .content {
   max-width: 1000px;
   margin: auto;
@@ -39,7 +55,8 @@ size=1px;
 .box {
 background-color: #f8f9fa; 
   width: 300px;
-  height: 300px;
+  min-height: 300px;
+overflow: hidden;
   border: 1px solid #eaecf0;
   padding: 10px;
   margin-left: 30px;
@@ -49,53 +66,64 @@ margin-bottom: 30px;
 .namebox {background-color: #f8f9fa; 
   max-width: 1000px;
   border: 1px #c8ccd1; border-style: solid none none none;
+
 }
 
 .smalllink {
 font-size: 80%; font-weight:normal; color: grey
 }
-</style>
 
-<style>
 a:link, a:visited {text-decoration: none; color: ##3366cc;}
 a:hover {text-decoration: underline; color: ##3366cc;}
 a:active {text-decoration: underline; color: #274581;}
-</style>
 
-<style>
 hr {
 border: none;
 background-color:#eaecf0;
 height:1px;
 }
+
+table {
+  width: 100%;
+}
+
 </style>
+
+
+<head>
+ <div class="header">
+<div class="content">
+</div>
+
+</div> 
+</head>
+
 <body>
 <div class="content">
  <title>Andres Klene</title>
 <link rel="icon" type="image/x-icon" href="granada.png">
-<h1>Andres Klene</h1>
-<hr>
+<h1 id="about">Andres Klene</h1>
 <div class="namebox">
-<p style = "color: #54595d; font-weight: medium; font-size: 80%"><i>My legal name is Andrés Klene Sánchez or Andres Klene-Sanchez, depending on which government you ask.</i>
+<p style = "color: #54595d; font-size: 80%"><i>My legal name is Andrés Klene Sánchez or Andres Klene-Sanchez, depending on which government you ask.</i>
 </div>
-<div class="box" style="float: right; text-align: center; font-size: 80%;">
-<img src="portrait.jpg" style="width: 250px;"><br>
-<p>Please note that this photo is quite old.</p>
+<div class="box" style="float: right; text-align: center;">
+<h3>Contact and info</h3><hr>
+<img src="portrait.jpg" style="width: 250px;">
 <hr>
 <p><b>Gmail:</b> andres.klene.sanchez </p>
+<hr>
+<p>Nationality: British, Spanish, German</p>
 </div>
-<p>Welcome! I recently completed my MMath in Mathematics at the <a href="https://en.wikipedia.org/wiki/University_of_Oxford">University of Oxford</a>.
+<p>Welcome! I recently completed my MMath in Mathematics at the University of Oxford. Please note that the adjacent photo is quite old.
 </p>
-
 <p>
-A couple of years ago, I got into symplectic geometry and wrote my third-year essay on pseudo-holomorphic curves. I was very lucky to be supervised by Dr. Guillem Cazassus, who invited me to learn some Floer theory at the <a href="https://lrobert.perso.math.cnrs.fr/BTW3/btw3.html" class="person">BTW3 workshop</a> in Marseille. With the basic analytic foundations under my belt, I did a summer project on some algebraic and topological aspects of the subject; more specifically, (derived) Fukaya categories associated to Lefschetz fibrations. 
-These objects have strong links to the homological mirror symmetry of Fano varieties, which became my focus. This project opened my eyes to the interplay between geometry and theoretical physics. I wrote my master's dissertation on geometric quantisation in keeping with this theme. Meanwhile, I moved away from analysis and towards categorical methods; the following summer I learned about gerbes and higher parallel transport.
+A couple of years ago, I got into symplectic geometry and wrote my third-year essay on pseudo-holomorphic curves. I was very lucky to be supervised by Dr. Guillem Cazassus, who invited me to learn some Floer theory at the <a href="https://lrobert.perso.math.cnrs.fr/BTW3/btw3.html" class="person">BTW3 workshop</a> in Marseille. Equipped with the analytic foundations, I then studied (derived) Fukaya categories associated to Lefschetz fibrations and their role in the homological mirror symmetry of Fano varieties. This was a summer project with Prof. Jason Lotay.</p><p> This project opened my eyes to the interplay between geometry and theoretical physics. I wrote my master's dissertation on <a href="https://en.wikipedia.org/wiki/Geometric_quantization">geometric quantisation</a> in keeping with this theme. I am currently learning some algebraic topology and <a href="https://en.wikipedia.org/wiki/Higher_gauge_theory">higher gauge theory</a>.
 </p>
-<h2>Projects and theses</h2>
+<h2 id="projects">Projects and theses</h2>
 <hr>
 <p>Here is a list of the written work I completed at—and after—university. Some have received  post-edits to fix typos and (in the case of summer projects) provide clarity. There is no claim to any originality of content.
 </p>
-<h4>Gerbes and stuff</h4> 
+<h4>Gerbes and stuff (in progress)</h4> 
 <p>Summer project; unsupervised. <br> 
 Topics: higher parallel transport, sheaves of groupoids, ...
 
@@ -116,12 +144,12 @@ Topics: intersections of holomorphic curves in 4-manifolds, Banach bundles and S
 Topics: random walks on fractals, numerical methods, combinatorics, harmonic analysis on graphs.
 </p>
 
-<h2> Lecture notes</h2>
+<h2 id="notes"> Lecture notes</h2>
 <hr>
 <p> 
 I am writing the official notes for the Oxford course on commutative algebra lectured by my college tutor <a href="https://people.maths.ox.ac.uk/kielak/">Prof. Dawid Kielak</a>. These will be based on notes by the previous lecturer <a href="https://people.maths.ox.ac.uk/rossler/">Prof. Damian Rössler</a>, with input from <a href="https://agag-gathmann.math.rptu.de/class/commalg-2013/commalg-2013.pdf" class="file">Gathmann's notes</a> and various student suggestions.
 </p>
-<h2>Miscellaneous</h2>
+<h2 id="misc">Miscellaneous</h2>
 <hr>
 <p>
 I was a founding member of the <a href="https://aareyanmanzoor.github.io/Texromancers.html">TeXromancers</a>, an online team dedicated to re-typesetting classic mathematical texts (in fact, I came up with the name!). I worked on their first two books: <a href="https://people.math.rochester.edu/faculty/doug/otherpapers/Adams-SHGH-latex.pdf">Stable Homotopy and Generalised Homology</a> by <a href="https://en.wikipedia.org/wiki/Frank_Adams">J. F. Adams</a> and <a href="https://aareyanmanzoor.github.io/assets/hicks.pdf">Notes on Differential Geometry</a> by <a href="https://en.wikipedia.org/wiki/Noel_Hicks">Noel Nicks</a>. Sadly, they are now disbanded.
@@ -131,5 +159,10 @@ I was a founding member of the <a href="https://aareyanmanzoor.github.io/Texroma
 I also wrote an expository article called <a href="https://www.invariants.org.uk/wp-content/uploads/2023/02/InvariantMT22.pdf">Associative Metrics</a> for the University of Oxford's mathematics society, <a href="https://www.invariants.org.uk/">The Invariants</a>. To be honest, it's not very good; I agreed to write the article under the impression that I had proved something (a simpler answer to <a href="https://mathoverflow.net/q/16214">this question</a>) which turned out to be nonsense.
 </p>
 </div>
+<footer>
+<div class="content">
+<p><b> Last edited 11 July 2024</b></p>
+</div>
+</footer>
 </body>
 </html>
