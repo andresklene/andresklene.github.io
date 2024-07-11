@@ -15,12 +15,15 @@ font-size: 160%
 font-weight:normal;
 font-size: 140%
       }
+h3 {font-family: Figtree; font-size: 120%}
+h4 {font-family: Figtree; font-size: 100%; margin-bottom: -10px;}
       p {
-	font-family: FreeSet;
-line-height: 1.5;
+	font-family: Figtree;
+line-height: 1.7;
 font-size: 100%
       }
 </style>
+
 <style>
 hr {
 color=black;
@@ -32,30 +35,31 @@ size=1px;
   max-width: 1000px;
   margin: auto;
 }
-</style>
 
-<style>
-p.ul {border-bottom: 1px solid black}
+.box {
+background-color: #f8f9fa; 
+  width: 300px;
+  height: 300px;
+  border: 1px solid #eaecf0;
+  padding: 10px;
+  margin-left: 30px;
+margin-bottom: 30px;
+}
 
-topnav
-{
-   position: fixed;
-   top: 0px;
+.namebox {background-color: #f8f9fa; 
+  max-width: 1000px;
+  border: 1px #c8ccd1; border-style: solid none none none;
+}
+
+.smalllink {
+font-size: 80%; font-weight:normal; color: grey
 }
 </style>
 
 <style>
-a.file {color:blue;}
-a.file:link  {text-decoration: none; color: #0066CC;}
-a.file:visited {text-decoration: none; color: #0066CC;}
-a.file:hover {text-decoration: underline; color: #0066CC;}
-a.file:active {text-decoration: none; color: #0066CC;}
-
-a.person {color:black;}
-a.person:link {text-decoration: underline; color: black;}
-a.person:visited {text-decoration: underline; color: black;}
-a.person:hover {text-decoration: underline; color: #0066CC;}
-a.person:active {text-decoration: none; color: #0066CC;}
+a:link, a:visited {text-decoration: none; color: ##3366cc;}
+a:hover {text-decoration: underline; color: ##3366cc;}
+a:active {text-decoration: underline; color: #274581;}
 </style>
 
 <style>
@@ -64,87 +68,67 @@ border: none;
 background-color:#eaecf0;
 height:1px;
 }
-.darker {background-color: #c8ccd1}
 </style>
 <body>
 <div class="content">
  <title>Andres Klene</title>
 <link rel="icon" type="image/x-icon" href="granada.png">
-<h1>Andalé Mono</h1>
+<h1>Andres Klene</h1>
 <hr>
-<p style = "color: #54595d; font-weight: medium">*My legal name is Andrés Klene Sánchez or Andres Klene-Sanchez, depending on which government you ask. <br> <nav>
-  <a href="/html/">HTML</a> |
-  <a href="/css/">CSS</a> |
-  <a href="/js/">JavaScript</a> |
-  <a href="/python/">Python</a>
-</nav></p>
-<hr class="darker">
-<p>Welcome! I recently completed my undergraduate Master's degree at the University of Oxford.
-</p>
-<p style="text-align: center">
-<img src="portrait.jpg" style="max-width: 500px">
-</p>
-<p> Please note that this photo is quite old. </p>
-<h2> Mathematical interests </h2>
+<div class="namebox">
+<p style = "color: #54595d; font-weight: medium; font-size: 80%"><i>My legal name is Andrés Klene Sánchez or Andres Klene-Sanchez, depending on which government you ask.</i>
+</div>
+<div class="box" style="float: right; text-align: center; font-size: 80%;">
+<img src="portrait.jpg" style="width: 250px;"><br>
+<p>Please note that this photo is quite old.</p>
 <hr>
-<p>A couple of years ago, I was taken by symplectic geometry. So much so that, in my third year of undergrad, I wrote an essay on the technique of pseudo-holomorphic curves. I was very lucky to be supervised by Dr. Guillem Cazassus, who invited me to learn some Floer theory at the <a href="https://lrobert.perso.math.cnrs.fr/BTW3/btw3.html" class="person">BTW3 workshop</a> in Marseille.
-</p><p> With the basic analytic foundations under my belt, I did a summer project on some algebraic and topological aspects of the subject; more specifically, (derived) Fukaya categories associated to Lefschetz fibrations. 
-These objects have strong links to the homological mirror symmetry of Fano varieties, which became my focus. 
-</p><p>
-This project opened my eyes to the interplay between geometry and theoretical physics. I wrote my master's dissertation on geometric quantisation in keeping with this theme. Meanwhile, I moved away from analysis and towards categorical methods; the following summer I learned about gerbes and higher parallel transport.
+<p><b>Gmail:</b> andres.klene.sanchez </p>
+</div>
+<p>Welcome! I recently completed my MMath in Mathematics at the <a href="https://en.wikipedia.org/wiki/University_of_Oxford">University of Oxford</a>.
 </p>
-<h1>Stuff I've written</h1>
+
+<p>
+A couple of years ago, I got into symplectic geometry and wrote my third-year essay on pseudo-holomorphic curves. I was very lucky to be supervised by Dr. Guillem Cazassus, who invited me to learn some Floer theory at the <a href="https://lrobert.perso.math.cnrs.fr/BTW3/btw3.html" class="person">BTW3 workshop</a> in Marseille. With the basic analytic foundations under my belt, I did a summer project on some algebraic and topological aspects of the subject; more specifically, (derived) Fukaya categories associated to Lefschetz fibrations. 
+These objects have strong links to the homological mirror symmetry of Fano varieties, which became my focus. This project opened my eyes to the interplay between geometry and theoretical physics. I wrote my master's dissertation on geometric quantisation in keeping with this theme. Meanwhile, I moved away from analysis and towards categorical methods; the following summer I learned about gerbes and higher parallel transport.
+</p>
+<h2>Projects and theses</h2>
+<hr>
 <p>Here is a list of the written work I completed at—and after—university. Some have received  post-edits to fix typos and (in the case of summer projects) provide clarity. There is no claim to any originality of content.
 </p>
-<h2>Theses</h2>
-<p><b>Geometric quantisation and Hamiltonian cobordism </b><br>
-Part C Dissertation (master's thesis) supervised by <a href="https://www.jesus.ox.ac.uk/about-jesus-college/our-community/people/professor-andrew-dancer/" class="person">Prof. Andrew Dancer</a>.  <br> 
-Topics: Lie group actions on symplectic manifolds, toric manifolds, Chern–Weil theory, Dolbeault cohomology, virtual Hilbert representations, Hamiltonian cobordism, 'quantisation commutes with reduction'.
-<br> [<a href="url", class="file">pdf</a>] </p>
+<h4>Gerbes and stuff</h4> 
+<p>Summer project; unsupervised. <br> 
+Topics: higher parallel transport, sheaves of groupoids, ...
 
-<p> <b> Pseudo-holomorphic curves in the complex projective plane </b> <br> 
-Part B Essay (bachelor's thesis) supervised by <a href="https://portal.findresearcher.sdu.dk/en/persons/cazassus" class="person">Dr. Guillem Cazassus</a>. <br>
+<h4>Geometric quantisation and Hamiltonian cobordism <span class="smalllink">[ <a href="url">pdf </a>]</span></h4>
+<p> Part C Dissertation (master's thesis) supervised by <a href="https://www.jesus.ox.ac.uk/about-jesus-college/our-community/people/professor-andrew-dancer/">Prof. Andrew Dancer</a>.<br> Topics: Lie group actions on symplectic manifolds, toric manifolds, Chern–Weil theory, Dolbeault cohomology, virtual Hilbert representations, Hamiltonian cobordism, 'quantisation commutes with reduction'.
+
+<p> <b>Fukaya–Seidel categories and Fano HMS <span class="smalllink">[ <a href="url">pdf </a>]</span> <span class="smalllink">[ <a href="https://people.maths.ox.ac.uk/lotay/Andres_poster_EPSRC.pdf">poster</a>]</span></b> <br> 
+Summer project supervised by <a href="https://people.maths.ox.ac.uk/lotay/">Prof. Jason Lotay</a>; funded by the EPSRC. <br> 
+Topics: Triangulated A<sub>∞</sub>-categories, symplectic Lefschetz fibrations, generalised Dehn twists, toric varieties, scheme-theoretic blowups, mutations of exceptional collections in the derived category of coherent sheaves.
+
+<h4> Pseudo-holomorphic curves in the complex projective plane <span class="smalllink">[ <a href="url">pdf </a>]</span></h4>
+<p> Part B Essay (bachelor's thesis) supervised by <a href="https://portal.findresearcher.sdu.dk/en/persons/cazassus">Dr. Guillem Cazassus</a>. <br>
 Topics: intersections of holomorphic curves in 4-manifolds, Banach bundles and Sobolev spaces, elliptic differential operators, Fredholm index theory, energy methods and Gromov compactness.
-<br> [<a href="part_b_essay.pdf" class="file">pdf</a>]
 </p>
 
-<h2> Summer projects</h2>
-<p> <b>Gerbes and higher geometric categories</b><br> Summer project; unsupervised. <br> 
-Topics: higher parallel transport, sheaves of groupoids, ...
-<br>[<a href="url" class="file">pdf</a>]</p>
-
-<p> <b>Fukaya–Seidel categories and Fano HMS </b> <br> 
-Summer project supervised by <a href="https://people.maths.ox.ac.uk/lotay/" class="person">Prof. Jason Lotay</a>; funded by the EPSRC. <br> 
-Topics: Triangulated A<sub>∞</sub>-categories, symplectic Lefschetz fibrations, generalised Dehn twists, toric varieties, scheme-theoretic blowups, mutations of exceptional collections in the derived category of coherent sheaves.
-<br>[<a href="url" class="file">pdf</a>] [<a href="https://people.maths.ox.ac.uk/lotay/Andres_poster_EPSRC.pdf" class="file">poster</a>] </p>
-
-<p><b>Rotational diffusions on generalised Sierpiński gaskets</b><br> 
-Summer project supervised by <a href="https://people.maths.ox.ac.uk/hambly/" class="person">Prof. Ben Hambly</a>; funded by Hertford College, Oxford. <br>
+<h4> Rotational diffusions on generalised Sierpiński gaskets <span class="smalllink">[ <a href="url">pdf </a>]</span></h4>
+<p>Summer project supervised by <a href="https://people.maths.ox.ac.uk/hambly/">Prof. Ben Hambly</a>; funded by Hertford College, Oxford. <br>
 Topics: random walks on fractals, numerical methods, combinatorics, harmonic analysis on graphs.
-<br> [<a href="url" class="file">pdf</a>] </p>
+</p>
 
 <h2> Lecture notes</h2>
+<hr>
 <p> 
-<b> Commutative Algebra </b> <br>
-I am writing the official notes for the Oxford course on commutative algebra lectured by <a href="https://people.maths.ox.ac.uk/kielak/" class="person">Prof. Dawid Kielak</a>. These are based on notes by the previous lecturer <a href="https://people.maths.ox.ac.uk/rossler/" class="person">Prof. Damian Rössler</a>, with input from <a href="https://agag-gathmann.math.rptu.de/class/commalg-2013/commalg-2013.pdf" class="file">Gathmann's notes</a> and various student suggestions. <br>
-[<a href="url" class="file">pdf</a>]
+I am writing the official notes for the Oxford course on commutative algebra lectured by my college tutor <a href="https://people.maths.ox.ac.uk/kielak/">Prof. Dawid Kielak</a>. These will be based on notes by the previous lecturer <a href="https://people.maths.ox.ac.uk/rossler/">Prof. Damian Rössler</a>, with input from <a href="https://agag-gathmann.math.rptu.de/class/commalg-2013/commalg-2013.pdf" class="file">Gathmann's notes</a> and various student suggestions.
 </p>
-<h2> Other?</h2>
+<h2>Miscellaneous</h2>
+<hr>
 <p>
-<b> Stable Homotopy and Generalised Homology </b> <br>
-I volunteered as part of the <a href="https://aareyanmanzoor.github.io/Texromancers.html" class="person">TeXromancers</a> (now disbanded), who electronically re-typeset the classic algebraic topology textbook by J. F. Adams. More importantly, I came up with the name "TeXromancers"!<br>
-[<a href="https://people.math.rochester.edu/faculty/doug/otherpapers/Adams-SHGH-latex.pdf" class="file">pdf</a>]
+I was a founding member of the <a href="https://aareyanmanzoor.github.io/Texromancers.html">TeXromancers</a>, an online team dedicated to re-typesetting classic mathematical texts (in fact, I came up with the name!). I worked on their first two books: <a href="https://people.math.rochester.edu/faculty/doug/otherpapers/Adams-SHGH-latex.pdf">Stable Homotopy and Generalised Homology</a> by <a href="https://en.wikipedia.org/wiki/Frank_Adams">J. F. Adams</a> and <a href="https://aareyanmanzoor.github.io/assets/hicks.pdf">Notes on Differential Geometry</a> by <a href="https://en.wikipedia.org/wiki/Noel_Hicks">Noel Nicks</a>. Sadly, they are now disbanded.
 </p>
 
 <p>
-<b> Associative Metrics </b> <br>
-I wrote an expository article for the University of Oxford's mathematics society, <a href="https://www.invariants.org.uk/" class="person">The Invariants</a>. To be honest, it's not very good; I agreed to write the article under the impression that I had proved something (a simpler answer to <a href="https://mathoverflow.net/q/16214" class="person">this question</a>) which, once I wrote it up properly, was nonsense.<br>
-[<a href="https://www.invariants.org.uk/wp-content/uploads/2023/02/InvariantMT22.pdf" class="file">pdf</a>]
-</p>
-
-<h1> Contact </h1>
-<p>
-Gmail: andres.klene.sanchez
+I also wrote an expository article called <a href="https://www.invariants.org.uk/wp-content/uploads/2023/02/InvariantMT22.pdf">Associative Metrics</a> for the University of Oxford's mathematics society, <a href="https://www.invariants.org.uk/">The Invariants</a>. To be honest, it's not very good; I agreed to write the article under the impression that I had proved something (a simpler answer to <a href="https://mathoverflow.net/q/16214">this question</a>) which turned out to be nonsense.
 </p>
 </div>
 </body>
