@@ -31,7 +31,6 @@ font-size: 100%
 height: 54px;
   background: #eaecf0;
   color: #4d4e4f;
-  font-size: 120%;
 box-shadow: inset 0px 0px 4px 0px #c8ccd1;
 display: flex;
 align-items: center;
@@ -62,23 +61,21 @@ background-color: #f8f9fa;
 overflow: hidden;
   border: 1px solid #eaecf0;
   padding: 10px;
-  margin-left: 30px;
-margin-bottom: 30px;
 }
 
 .namebox {background-color: #f8f9fa; 
   max-width: 1000px;
   border: 1px #c8ccd1; border-style: solid none none none;
-
+  padding: 5px
 }
 
 .smalllink {
 font-size: 80%; font-weight:normal; color: grey
 }
 
-a:link {text-decoration: none; color: ##3366cc;}
-a:visited {text-decoration: none; color: ##3366cc;}
-a:hover {text-decoration: underline; color: ##3366cc;}
+a:link {text-decoration: none; color: #3366cc;}
+a:visited {text-decoration: none; color: #3366cc;}
+a:hover {text-decoration: underline; color: #3366cc;}
 a:active {text-decoration: underline; color: #274581;}
 
 hr {
@@ -94,26 +91,30 @@ font-family: Figtree;
 
 .Button{
     display:block;
-    height:30px;
-    width:200px;
+    height:36px;
+    width:217px;
     color:#757575;
     text-align:left;
     font-family: Figtree;
     background: #ffffff;
     border-radius: 1.5px;
 text-decoration: none;
-box-shadow: 0px 0px 4px 0px #c8ccd1;
-font-size: 90%;
+box-shadow: 0 1px 1px 0 #bdbfc2;
     }
 a.Button:hover{
     background: #f8f9fa;
 text-decoration: none;
-border: 10px inset solid blue
+border: 10px inset solid blue;
+color:#4d4e4f;
     }
+a.Button:active{
+color:#4d4e4f;
+}
 li{
   list-style:none;
   display:inline-block;
-  margin: 10px;
+  margin-top: 9px;
+margin-bottom:11px;
 }
 
 </style>
@@ -122,10 +123,14 @@ li{
 <head>
  <div class="header">
 <div class="content">
-        <li><a class="Button" href="#about">Homepage</a></li>
-        <li><a class="Button" href="#projects">Projects and theses</a></li>
-        <li><a class="Button" href="#notes">Lecture notes</a></li>
-<li><a class="Button" href="#misc">Miscellaneous</a></li>
+        <li><a class="Button" href="#about" style="  margin-left: 0px;
+margin-right: 20px;">Homepage</a></li>
+        <li><a class="Button" href="#projects" style="  margin-left: 20px;
+margin-right: 20px;">Projects and theses</a></li>
+        <li><a class="Button" href="#notes" style="  margin-left: 20px;
+margin-right: 20px;">Lecture notes</a></li>
+<li><a class="Button" href="#misc" style="  margin-left: 20px;
+margin-right: 0;">Miscellaneous</a></li>
 </div>
 </div> 
 </head>
@@ -136,7 +141,8 @@ li{
 <link rel="icon" type="image/x-icon" href="granada.png">
 <h1 id="about">Andres Klene</h1>
 <div class="namebox">
-<p style = "color: #54595d; font-size: 80%"><i>My legal name is Andrés Klene Sánchez or Andres Klene-Sanchez, depending on which government you ask.</i>
+<p style = "color: #54595d; font-size: 80%; margin-top: 0px;
+margin-bottom: 0px;"><i>My legal name is Andrés Klene Sánchez or Andres Klene-Sanchez, depending on which government you ask.</i></p>
 </div>
 <div class="box" style="float: right; text-align: center;">
 <h3>Contact and info</h3><hr>
@@ -151,10 +157,9 @@ li{
 <th style="width: 40%">Nationality</th> <td> British, Spanish, German</td>
 </table>
 </div>
-<p>Welcome! I recently completed my MMath in Mathematics at the University of Oxford. Please note that the adjacent photo is quite old.
-</p>
+<p>Welcome! I recently completed my MMath in Mathematics at the University of Oxford. </p>
 <p>
-A couple of years ago, I got into symplectic geometry and wrote my third-year essay on pseudo-holomorphic curves. I was very lucky to be supervised by <a href="https://portal.findresearcher.sdu.dk/en/persons/cazassus">Dr. Guillem Cazassus</a>, who invited me to learn some Floer theory at the <a href="https://lrobert.perso.math.cnrs.fr/BTW3/btw3.html" class="person">BTW3 workshop</a> in Marseille. Equipped with these analytic foundations, I did a summer project with <a href="https://people.maths.ox.ac.uk/lotay/">Prof. Jason Lotay</a>, where I studied (derived) Fukaya categories associated to Lefschetz fibrations and their role in the homological mirror symmetry of Fano varieties.</p><p> This really opened my eyes to the [insert words] geometry and theoretical physics. I wrote my master's dissertation on <a href="https://en.wikipedia.org/wiki/Geometric_quantization">geometric quantisation</a> in keeping with this theme. I am currently learning some algebraic topology and <a href="https://en.wikipedia.org/wiki/Higher_gauge_theory">higher gauge theory</a>.
+A couple of years ago, I got wrote my third-year essay on pseudo-holomorphic curves. I was very lucky to be supervised by <a href="https://portal.findresearcher.sdu.dk/en/persons/cazassus">Dr. Guillem Cazassus</a>, who invited me to learn some Floer theory at the <a href="https://lrobert.perso.math.cnrs.fr/BTW3/btw3.html" class="person">BTW3 workshop</a> in Marseille. Equipped with these analytic foundations, I did a summer project at Oxford with <a href="https://people.maths.ox.ac.uk/lotay/">Prof. Jason Lotay</a> on symplectic topology, where I studied (derived) Fukaya categories associated to Lefschetz fibrations and their role in the homological mirror symmetry of Fano varieties.</p><p> This really opened my eyes to the [insert words] geometry and theoretical physics. I wrote my master's dissertation on <a href="https://en.wikipedia.org/wiki/Geometric_quantization">geometric quantisation</a> in keeping with this theme. I am currently learning some algebraic topology and <a href="https://en.wikipedia.org/wiki/Higher_gauge_theory">higher gauge theory</a>.
 </p>
 <h2 id="projects">Projects and theses</h2>
 <hr>
@@ -164,7 +169,7 @@ A couple of years ago, I got into symplectic geometry and wrote my third-year es
 <p>Summer project; unsupervised. <br> 
 Topics: higher parallel transport, sheaves of groupoids, ...
 
-<h4>Geometric quantisation and Hamiltonian cobordism <span class="smalllink">[ <a href="url">pdf </a>]</span></h4>
+<h4>Geometric quantisation and Hamiltonian cobordism <span class="smalllink"> [ <a href="url">pdf </a>]</span> </h4>
 <p> Part C Dissertation (master's thesis) supervised by <a href="https://www.jesus.ox.ac.uk/about-jesus-college/our-community/people/professor-andrew-dancer/">Prof. Andrew Dancer</a>.<br> Topics: Lie group actions on symplectic manifolds, toric manifolds, Chern–Weil theory, Dolbeault cohomology, virtual Hilbert representations, Hamiltonian cobordism, 'quantisation commutes with reduction'.
 
 <p> <b>Fukaya–Seidel categories and Fano HMS <span class="smalllink">[ <a href="url">pdf </a>]</span> <span class="smalllink">[ <a href="https://people.maths.ox.ac.uk/lotay/Andres_poster_EPSRC.pdf">poster</a>]</span></b> <br> 
