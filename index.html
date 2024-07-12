@@ -1,140 +1,12 @@
 <!DOCTYPE html>
 <html>
-
-<style>
-      @font-face { font-family: wSerif; src: url('wSerif.ttf'); } 
-@font-face { font-family: Figtree; src: url('Figtree.ttf'); }
-      @font-face { font-family: FreeSet; src: url('FreeSet.ttf'); }
-      h1 {
-         font-family: wSerif; font-weight:normal;
-font-size: 160%;
-margin-top: 25px;
-margin-bottom:25px;
-      }
-      h2 {
-         font-family: wSerif;
-font-weight:normal;
-font-size: 140%
-      }
-h3 {font-family: Figtree; font-size: 120%;
-margin-top: 0px;
-margin-bottom: 0px;}
-h4 {font-family: Figtree; font-size: 100%; margin-bottom: -10px;}
-      p {
-	font-family: Figtree;
-line-height: 1.7;
-margin-top: 16px;
-      }
-
-.header {
-height: 54px;
-  background: #eaecf0;
-  color: #4d4e4f;
-box-shadow: inset 0px 0px 4px 0px #c8ccd1;
-display: flex;
-align-items: center;
-}
-
-body {
-  padding: 0;
-  margin: 0;
-background-color: #ffffff
-}
-
-footer {
-  padding: 3px;
-  background: #eaecf0;
-  color: #54595d;
-border: 1px solid none none none #c8ccd1;
-}
-
-.content {
-  max-width: 1000px;
-  margin: auto;
-}
-
-.box {
-background-color: #f8f9fa; 
-  max-width: 300px;
-  min-height: 300px;
-overflow: hidden;
-  border: 1px solid #eaecf0;
-  padding: 10px;
-margin-left: 30px;
-margin-bottom: 30px;
-margin-top: 16px;
-}
-
-.namebox {background-color: #f8f9fa; 
-  max-width: 1000px;
-  border: 1px #c8ccd1; border-style: solid none none none;
-  padding: 5px
-}
-
-.smalllink {
-font-size: 80%; font-weight:normal; color: #54595d
-}
-
-a:link {text-decoration: none; color: #3366cc;}
-a:visited {text-decoration: none; color: #3366cc;}
-a:hover {text-decoration: underline; color: #3366cc;}
-a:active {text-decoration: underline; color: #274581;}
-
-hr {
-border: none;
-background-color:#eaecf0;
-height:1px;
-}
-
-table {
-  width: 100%;
-font-family: Figtree;
-}
-
-a.Button{
-    display:block;
-    height:36px;
-    width:200px;
-    color:#757575;
-    text-align:left;
-    font-family: Figtree;
-    background: #ffffff;
-    border-radius: 1.5px;
-text-decoration: none;
-box-shadow: 0 1px 1px 0 #bdbfc2;
-display: inline-flex;
-  align-items: center; 
-padding-left: 15px
-    }
-a.Button:hover{
-    background: #f8f9fa;
-text-decoration: none;
-color:#4d4e4f;
-    }
-a.Button:active{
-color:#4d4e4f;
-}
-li{
-  list-style:none;
-  display:inline-block;
-  margin-top: 9px;
-margin-bottom:11px;
-}
-
-</style>
-
-
 <head>
+<link rel="stylesheet" href="styles.css">
+
  <div class="header">
 <div class="content">
-        <li><a class="Button" href="#" style="  margin-left: 0px;
-margin-right: 20px;">Homepage</a></li>
-        <li><a class="Button" href="#projects" style="  margin-left: 20px;
-margin-right: 20px;">Projects and theses</a></li>
-        <li><a class="Button" href="#notes" style="  margin-left: 20px;
-margin-right: 20px;">Lecture notes</a></li>
-<li><a class="Button" href="#misc" style="  margin-left: 20px;
-margin-right: 0;">Miscellaneous</a></li>
+<li><a class="Button" href="resources.htm" style="margin-left: 20px;
+margin-right: 0;">Search</a></li>
 </div>
 </div> 
 </head>
@@ -146,7 +18,7 @@ margin-right: 0;">Miscellaneous</a></li>
 <h1 id="">Andres Klene</h1>
 <div class="namebox">
 <p style = "color: #54595d; font-size: 80%; margin-top: 0px;
-margin-bottom: 0px;"><i>My legal name is Andrés Klene Sánchez or Andres Klene-Sanchez, depending on which government you ask.</i></p>
+margin-bottom: 0px;"><i>My full name is Andrés Klene Sánchez or Andres Klene-Sanchez, depending on which government you ask.</i></p>
 </div>
 <div class="box" style="float: right; text-align: center;">
 <h3>Contact and info</h3><hr>
@@ -154,22 +26,20 @@ margin-bottom: 0px;"><i>My legal name is Andrés Klene Sánchez or Andres Klene-
 <br><span style="font-family: Figtree; font-size:90%">Note that this photo is quite old</span>
 <hr>
 <table style="text-align: left; font-size:90%">
-<th valign="top" style="width: 50%">Gmail</th> <td> andres.klene.sanchez </td>
+<th valign="top" style="width: 50%; padding:5px">Gmail</th> <td> andres.klene.sanchez </td>
 </table>
 <hr>
 <table style="text-align: left; font-size:90%">
-<th valign="top" style="width: 50%">Education</th> <td> <a href="https://en.wikipedia.org/wiki/University_of_Oxford">University of Oxford </a> (MMath)</td>
+<th valign="top" style="width: 50%; padding:5px">Education</th> <td> <a href="https://en.wikipedia.org/wiki/University_of_Oxford">University of Oxford </a> (MMath)</td>
 </table>
 <hr>
 <table style="text-align: left; font-size:90%">
-<th valign="top" style="width: 50%">Nationality</th> <td> British, Spanish, German</td>
+<th valign="top" style="width: 50% ; padding:5px">Nationality</th> <td> British, Spanish, German</td>
 </table>
 </div>
 <p>Welcome! I recently completed my MMath in Mathematics at the University of Oxford. </p>
 <p>
-A couple of years ago, I wrote my third-year essay on pseudo-holomorphic curves. I was very lucky to be supervised by <a href="https://portal.findresearcher.sdu.dk/en/persons/cazassus">Dr. Guillem Cazassus</a>, who invited me to learn some Floer theory at the <a href="https://lrobert.perso.math.cnrs.fr/BTW3/btw3.html" class="person">BTW3 workshop</a> in Marseille. I then did a summer project with <a href="https://people.maths.ox.ac.uk/lotay/">Prof. Jason Lotay</a> on symplectic topology, where I studied Fukaya categories associated to Lefschetz fibrations and their role in the homological mirror symmetry of Fano varieties. I enjoy the interplay between geometry and theoretical physics; I wrote my master's dissertation on <a href="https://en.wikipedia.org/wiki/Geometric_quantization">geometric quantisation</a> in keeping with this theme. 
-</p><p>
-I am currently learning about algebraic topology and <a href="https://en.wikipedia.org/wiki/Higher_gauge_theory">higher gauge theory</a>.
+A couple of years ago, I wrote my third-year essay on pseudo-holomorphic curves. I was very lucky to be supervised by <a href="https://portal.findresearcher.sdu.dk/en/persons/cazassus">Dr. Guillem Cazassus</a>, who invited me to learn some Floer theory at the <a href="https://lrobert.perso.math.cnrs.fr/BTW3/btw3.html" class="person">BTW3 workshop</a> in Marseille. I then did a summer project with <a href="https://people.maths.ox.ac.uk/lotay/">Prof. Jason Lotay</a> on symplectic topology, where I studied Fukaya categories associated to Lefschetz fibrations and their role in the <a href="https://en.wikipedia.org/wiki/Homological_mirror_symmetry">homological mirror symmetry</a> of Fano varieties. I wrote my master's dissertation on <a href="https://en.wikipedia.org/wiki/Geometric_quantization">geometric quantisation</a>. I am currently learning about <a href="https://en.wikipedia.org/wiki/Gerbe">gerbes</a>.
 </p>
 <h2 id="projects">Projects and theses</h2>
 <hr>
@@ -177,23 +47,23 @@ I am currently learning about algebraic topology and <a href="https://en.wikiped
 </p>
 <h4>Gerbes and stuff (in progress)</h4> 
 <p>Summer project; unsupervised. <br> 
-Topics: higher parallel transport, sheaves of groupoids, ...
+Topics: higher parallel transport, ...
 
 <h4>Geometric quantisation and Hamiltonian cobordism <span class="smalllink"> &nbsp;[ <a href="url">pdf </a>]</span> </h4>
-<p> Part C Dissertation (master's thesis) supervised by <a href="https://www.jesus.ox.ac.uk/about-jesus-college/our-community/people/professor-andrew-dancer/">Prof. Andrew Dancer</a>.<br> Topics: Lie group actions on symplectic manifolds, toric manifolds, Chern–Weil theory, Dolbeault cohomology, virtual Hilbert representations, Hamiltonian cobordism, 'quantisation commutes with reduction'.
+<p> Part C Dissertation (master's thesis) supervised by <a href="https://www.jesus.ox.ac.uk/about-jesus-college/our-community/people/professor-andrew-dancer/">Prof. Andrew Dancer</a>.<br> Topics: Hamiltonian group actions, virtual Hilbert representations, Hamiltonian cobordism.
 
 <p> <b>Fukaya–Seidel categories and Fano HMS <span class="smalllink"> &nbsp;[ <a href="url">pdf </a> &nbsp;<a href="https://people.maths.ox.ac.uk/lotay/Andres_poster_EPSRC.pdf">poster</a>]</span></b> <br> 
 Summer project supervised by Prof. Jason Lotay; funded by the EPSRC. <br> 
-Topics: Triangulated A<sub>∞</sub>-categories, symplectic Lefschetz fibrations, generalised Dehn twists, toric varieties, scheme-theoretic blowups, mutations of exceptional collections in the derived category of coherent sheaves.
+Topics: Triangulated A<sub>∞</sub>-categories, symplectic Lefschetz fibrations, scheme-theoretic blowups.
 
 <h4> Pseudo-holomorphic curves in the complex projective plane <span class="smalllink"> &nbsp; [ <a href="url">pdf </a>]</span></h4>
 <p> Part B Essay (bachelor's thesis) supervised by Dr. Guillem Cazassus. <br>
-Topics: intersections of holomorphic curves in 4-manifolds, Banach bundles and Sobolev spaces, elliptic differential operators, Fredholm index theory, energy methods and Gromov compactness.
+Topics: geometry of 4-manifolds, index theory, Gromov compactness.
 </p>
 
 <h4> Rotational diffusions on generalised Sierpiński gaskets</h4>
 <p>Summer project supervised by <a href="https://people.maths.ox.ac.uk/hambly/">Prof. Ben Hambly</a>; funded by Hertford College, Oxford. <br>
-Topics: random walks on fractals, numerical methods, combinatorics, harmonic analysis on graphs.
+Topics: random walks on fractals, numerical methods, harmonic analysis on graphs.
 </p>
 
 <h2 id="notes"> Lecture notes</h2>
@@ -213,7 +83,7 @@ I also wrote an expository article called <a href="https://www.invariants.org.uk
 </div>
 <footer>
 <div class="content">
-<p><b> Last edited 11 July 2024</b></p>
+<p><b> Last edited 12 July 2024</b></p>
 </div>
 </footer>
 </body>
