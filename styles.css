@@ -1,0 +1,125 @@
+      @font-face { font-family: wSerif; src: url('wSerif.ttf'); } 
+@font-face { font-family: Figtree; src: url('Figtree.ttf'); }
+      @font-face { font-family: FreeSet; src: url('FreeSet.ttf'); }
+      h1 {
+         font-family: wSerif; font-weight:normal;
+font-size: 160%;
+margin-top: 25px;
+margin-bottom:25px;
+      }
+      h2 {
+         font-family: wSerif;
+font-weight:normal;
+font-size: 140%
+      }
+h3 {font-family: Figtree; font-size: 120%;
+margin-top: 0px;
+margin-bottom: 0px;}
+h4 {font-family: Figtree; font-size: 100%; margin-bottom: -10px;}
+      p {
+	font-family: Figtree;
+line-height: 1.7;
+margin-top: 16px;
+      }
+
+.header {
+min-height: 54px;
+  background: #eaecf0;
+  color: #4d4e4f;
+box-shadow: inset 0px 0px 4px 0px #c8ccd1;
+align-items: center;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+background-color: #ffffff;
+}
+
+footer {
+  padding: 3px;
+  background: #eaecf0;
+  color: #54595d;
+border: 1px solid none none none #c8ccd1;
+}
+
+.content {
+  max-width: 1000px;
+  margin: auto;
+}
+
+.box {
+background-color: #f8f9fa; 
+  max-width: 300px;
+  min-height: 300px;
+overflow: hidden;
+  border: 1px solid #eaecf0;
+  padding: 10px;
+margin-left: 30px;
+margin-bottom: 30px;
+margin-top: 16px;
+}
+
+.namebox {background-color: #f8f9fa; 
+  max-width: 1000px;
+  border: 1px #c8ccd1; border-style: solid none none none;
+  padding: 5px
+}
+
+.smalllink {
+font-size: 100%; font-weight:normal; color: #54595d
+}
+
+a:link {text-decoration: none; color: #3366cc;}
+a:visited {text-decoration: none; color: #3366cc;}
+a:hover {text-decoration: underline; color: #3366cc;}
+a:active {text-decoration: underline; color: #274581;}
+
+hr {
+border: none;
+background-color:#eaecf0;
+height:1px;
+}
+
+table {
+  width: 100%;
+font-family: Figtree;
+}
+
+table.resources {padding: 20px;}
+
+th {
+text-align: left;
+}
+
+td {
+padding-top: 5px;
+  padding-bottom: 5px;
+text-align: left;
+}
+
+a.Button{
+    display:block;
+    height:36px;
+    min-width:500px;
+    color:#757575;
+    text-align:left;
+    font-family: Figtree;
+    background: #ffffff;
+    border-radius: 1.5px;
+text-decoration: none;
+box-shadow: 0 1px 1px 0 #bdbfc2;
+display: inline-flex;
+  align-items: center; 
+padding-left: 15px;
+cursor:text;
+    }
+a.Button:active{
+color:#4d4e4f;
+}
+li{
+  list-style:none;
+  display:inline-block;
+  margin-top: 9px;
+margin-bottom:11px;
+}
