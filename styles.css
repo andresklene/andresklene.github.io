@@ -1,6 +1,7 @@
 @font-face { font-family: wSerif; src: url('graphics/wSerif.ttf'); } 
 @font-face { font-family: Frutiger_Book; src: url('graphics/Frutiger_Book.ttf'); }
 @font-face { font-family: Frutiger_Bold; src: url('graphics/Frutiger_Bold.ttf'); }
+@font-face { font-family: Frutiger_Black; src: url('graphics/NeueFrutigerWorld-Heavy.ttf'); }
 
 h1 {
 font-family: wSerif; 
@@ -19,22 +20,20 @@ font-size: 140%
 h3 {
 font-family: Frutiger_Bold; 
 font-weight: normal; 
-font-size: 120%;
+font-size: 110%;
 margin-top: 0px;
 margin-bottom: 0px;
 }
 
 h4 {
-font-family: Frutiger_Bold; 
+font-family: Frutiger_Black; 
 font-weight: normal; 
-font-size: 100%; 
-margin-bottom: -10px;  
+font-size: 120%; 
 }
 
 p {
 font-family: Frutiger_Book;
 line-height: 1.7;
-margin-top: 16px;
 }
 
 .header {
@@ -48,6 +47,7 @@ body {
  padding: 0;
  margin: 0;
 background-color: #ffffff;
+color: #202122;
 }
 
 footer {
@@ -68,9 +68,9 @@ max-width: 300px;
 min-height: 300px;
 overflow: hidden;
 border: 1px solid #eaecf0;
-padding: 10px;
-margin-left: 30px;
-margin-bottom: 30px;
+padding: 3px;
+margin-left: 40px;
+margin-bottom: 40px;
 margin-top: 16px;
 }
 
@@ -96,7 +96,7 @@ height:1px;
 }
 
 table {
-  width: 100%;
+width: 100%;
 }
 
 table.resources {padding: 20px;}
@@ -107,10 +107,13 @@ font-family: Frutiger_Bold;
 }
 
 td {
-padding-top: 5px;
-padding-bottom: 5px;
 text-align: left;
 font-family: Frutiger_Book; 
+}
+
+table.resources:td {
+padding-top: 5px;
+padding-bottom: 5px;
 }
 
 a.Button {
