@@ -12,10 +12,9 @@ margin-bottom:25px;
 font-weight:normal;
 font-size: 140%
       }
+h4 {font-family: Figtree; font-size: 120%;}
 h3 {font-family: Figtree; font-size: 120%;
-margin-top: 0px;
-margin-bottom: 0px;}
-h4 {font-family: Figtree; font-size: 100%; margin-bottom: -10px;}
+margin-top: 0px; margin-bottom: 0px;}
       p {
 	font-family: Figtree;
 line-height: 1.7;
