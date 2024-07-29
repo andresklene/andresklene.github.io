@@ -49,12 +49,11 @@ body {
 background-color: #ffffff;
 color: #202122;
 }
-
 footer {
  padding: 3px;
  background: #eaecf0;
  color: #54595d;
-border: 1px solid none none none #c8ccd1;
+border-top: 1px solid #c8ccd1;
 }
 
 .content {
