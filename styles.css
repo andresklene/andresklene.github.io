@@ -63,8 +63,8 @@ margin: auto;
 
 .box {
 background-color: #f8f9fa; 
-max-width: 300px;
-min-height: 300px;
+width: 300px;
+min-height: 200px;
 overflow: hidden;
 border: 1px solid #eaecf0;
 padding: 3px;
