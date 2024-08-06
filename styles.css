@@ -59,7 +59,8 @@ border-top: 1px solid #c8ccd1;
 .content {
 max-width: 1080px;
 margin: auto;
-padding: 40px;
+left-padding: 40px;
+ right-padding: 40px;
 }
 
 .box {
