@@ -103,15 +103,13 @@ table.infobox {border-bottom:1px solid #eaecf0}
 
 table.resources {padding: 20px;}
 
-th {
+th, td {
 text-align: left;
 font-family: Frutiger_Bold; 
 }
 
-td {
-text-align: left;
-font-family: Frutiger_Book; 
-}
+table.infobox:th {padding: 5px}
+table.infobox:td {padding: 5px}
 
 table.resources:td {
 padding-top: 5px;
