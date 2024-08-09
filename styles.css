@@ -99,13 +99,18 @@ table {
 width: 100%;
 }
 
-table.infobox {     padding:10px;}
+table.infobox {margin:10px;}
 
 table.resources {padding: 20px;}
 
-th, td {
+th {
 text-align: left;
 font-family: Frutiger_Bold; 
+}
+
+td {
+text-align: left;
+font-family: Frutiger_Book; 
 }
 
 table.resources:td {
