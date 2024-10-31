@@ -137,10 +137,3 @@ align-items: center;
 padding-left: 15px;
 cursor:text;
 }
-
-li {
-  list-style:none;
-  display:inline-block;
-  margin-top: 9px;
-margin-bottom:11px;
-}
