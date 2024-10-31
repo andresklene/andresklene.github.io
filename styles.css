@@ -1,6 +1,6 @@
 @font-face { font-family: head; src: url('graphics/PTSerif-Regular.ttf'); } 
-@font-face { font-family: sans; src: url('graphics/Frutiger_Book.ttf'); }
-@font-face { font-family: bsans; src: url('graphics/Frutiger_Bold.ttf'); }
+@font-face { font-family: sans; src: url('graphics/PTSans-Regular.ttf'); }
+@font-face { font-family: bsans; src: url('graphics/PTSans-Bold.ttf'); }
 
 h1 {
 font-family: head; 
