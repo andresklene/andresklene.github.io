@@ -5,15 +5,15 @@
 h1 {
 font-family: head; 
 font-weight:normal;
-font-size: 160%;
-margin-top: 25px;
-margin-bottom:25px;
+font-size: 1.6em;
+margin-top: 1.6em;
+margin-bottom:1.6em;
 }
 
 h2 {
 font-family: head;
 font-weight:normal;
-font-size: 140%
+font-size: 1.4em
 }
 
 h3 {
@@ -27,12 +27,13 @@ margin-bottom: 0px;
 h4 {
 font-family: bsans; 
 font-weight: normal; 
-font-size: 120%; 
+font-size: 1.2em; 
 }
 
 p {
 font-family: sans;
 line-height: 1.7;
+ font-size: 1em; 
 }
 
 .header {
