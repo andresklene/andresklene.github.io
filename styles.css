@@ -41,14 +41,13 @@ line-height: 1.7;
 height: 50px;
  background: #282828;
 color: #ffffff;
-box-shadow: inset 0px 0px 4px 0px #c8ccd1;
 align-items: center;
 }
 body {
  padding: 0;
  margin: 0;
 background: #202020;
-color: #202122;
+color: #ffffff
 }
 footer {
  padding: 3px;
