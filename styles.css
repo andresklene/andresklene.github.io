@@ -1,6 +1,6 @@
-@font-face { font-family: head; src: url('graphics/LinLibertine_R.ttf'); } 
-@font-face { font-family: sans; src: url('graphics/FN_Book.ttf'); }
-@font-face { font-family: bsans; src: url('graphics/FN_Bold.ttf'); }
+@font-face { font-family: head; src: url('ACaslonPro-Regular.otf'); } 
+@font-face { font-family: sans; src: url('ACaslonPro-Regular.otf'); }
+@font-face { font-family: bsans; src: url('ACaslonPro-Regular.otf'); }
 
 h1 {
 font-family: head; 
@@ -38,27 +38,28 @@ line-height: 1.7;
 
 .header {
 height: 50px;
- background: #eaecf0;
-color: #54595d;
+ background: #282828;
+color: #ffffff;
 box-shadow: inset 0px 0px 4px 0px #c8ccd1;
 align-items: center;
 }
 body {
  padding: 0;
  margin: 0;
-background-color: #ffffff;
+background: #202020;
 color: #202122;
 }
 footer {
  padding: 3px;
- background: #eaecf0;
- color: #54595d;
+ background: #000000;
+ color: #ffffff;
 border-top: 1px solid #c8ccd1;
 }
 
 .content {
 max-width: 1000px;
 margin: auto;
+ color: #202020
 }
 
 .box {
@@ -80,18 +81,14 @@ border: 1px #c8ccd1; border-style: solid none none none;
 padding: 5px
 }
 
-.smalllink {
-font-size: 100%; font-weight:normal; color: #54595d
-}
-
-a:link {text-decoration: none; color: #3366cc;}
-a:visited {text-decoration: none; color: #3366cc;}
-a:hover {text-decoration: underline; color: #3366cc;}
+a:link {text-decoration: none; color: #287eff;}
+a:visited {text-decoration: none; color: #287eff;}
+a:hover {text-decoration: underline; color: #287eff;}
 a:active {text-decoration: underline; color: #274581;}
 
 hr {
 border: none;
-background-color:#eaecf0;
+background-color:#ffffff;
 height:1px;
 }
 
