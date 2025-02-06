@@ -19,9 +19,10 @@ font-size: 1.4em
 h3 {
 font-family: bsans; 
 font-weight: normal; 
-font-size: 110%;
+font-size: 1.2em;
 margin-top: 0px;
 margin-bottom: 0px;
+ font-variant: small-caps;
 }
 
 h4 {
@@ -39,8 +40,7 @@ line-height: 1.7;
 }
 
 .header {
- padding: 3px;
- background: #282828;
+ background: #333333;
 color: #ffffff;
  min-height: 50px;
 }
