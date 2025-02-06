@@ -39,10 +39,9 @@ line-height: 1.7;
 }
 
 .header {
-height: 50px;
+ padding: 3px;
  background: #282828;
 color: #ffffff;
-align-items: center;
 }
 body {
  padding: 0;
