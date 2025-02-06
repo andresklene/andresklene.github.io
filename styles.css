@@ -86,6 +86,11 @@ a:visited {text-decoration: underline; color: #ffffff;}
 a:hover {text-decoration: underline; color: #287eff;}
 a:active {text-decoration: underline; color: #287eff;}
 
+a.b:link {text-decoration: none; color: #ffffff;}
+a.b:visited {text-decoration: none; color: #ffffff;}
+a.b:hover {text-decoration: none; color: #ff4d4d;}
+a.b:active {text-decoration: none; color: #ff4d4d;}
+
 hr {
 border: none;
 background-color:#333333;
@@ -118,21 +123,4 @@ padding-bottom: 5px;
 
 table.infobox:td {
 border-bottom:1px solid #eaecf0;
-}
-
-a.Button {
-display:block;
-height:36px;
-min-width:500px;
-color:#757575;
-text-align:left;
-font-family: Figtree;
-background: #ffffff;
-border-radius: 1.5px;
-text-decoration: none;
-box-shadow: 0 1px 1px 0 #bdbfc2;
-display: inline-flex;
-align-items: center; 
-padding-left: 15px;
-cursor:text;
 }
