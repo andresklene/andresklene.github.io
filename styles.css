@@ -42,7 +42,7 @@ line-height: 1.7;
 .header {
  background: #333333;
 color: #ffffff;
- min-height: 50px;
+ min-height: 20px;
  padding: 0;
 }
 body {
