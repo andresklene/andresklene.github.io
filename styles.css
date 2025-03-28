@@ -1,66 +1,18 @@
-@font-face { font-family: head; src: url('graphics/ACaslonPro-Regular.otf'); } 
-@font-face { font-family: sans; src: url('graphics/ACaslonPro-Regular.otf'); }
-@font-face { font-family: bsans; src: url('graphics/ACaslonPro-Regular.otf'); }
-
-h1 {
-font-family: head; 
-font-weight:normal;
-font-size: 200%;
-margin-top: 25px;
-margin-bottom:0px;
-}
-
-h2 {
-font-family: head;
-font-weight:normal;
-font-size: 1.4em
-}
-
-h4 {
-font-family: bsans; 
-font-style: italic;
- font-size: 1.2em; 
- color: #ff4d4d;
-}
-
-h3 {
-font-family: bsans; 
-font-weight: normal; 
-font-size: 1.2em; 
-font-variant: small-caps;
-}
-
-p {
-font-family: sans;
-line-height: 1.7;
-font-size:1em;
- margin-top: 0px;
-}
+@font-face { font-family: caslon; src: url('graphics/ACaslonPro-Regular.otf'); } 
 
 .header {
- background: #333333;
 color: #ffffff;
- min-height: 20px;
-padding: 15px;
 }
 
 body {
- padding: 0;
- margin: 0;
 background: #202020;
 color: #ffffff
 }
-footer {
- padding: 3px;
- background: #000000;
- color: #ffffff;
- padding: 25px;
-}
 
 .content {
-max-width: 1200px;
+max-width: 1000px;
 margin: auto;
-color: #ffffff
+color: #ffff00;
 }
 
 .box {
