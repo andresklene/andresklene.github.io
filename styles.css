@@ -1,4 +1,4 @@
-@font-face { font-family: caslon; src: url('ACaslonPro-Regular.otf'); } 
+@font-face { font-family: caslon; src: url('graphics/ACaslonPro-Regular.otf'); } 
 
 function setDynamicFontSize() {
     const windowWidth = window.innerWidth;
@@ -85,29 +85,6 @@ border: none;
 background-color:#333333;
 height:1px;
  margin-bottom: 20px;
-}
-
-table {
-width: 100%;
-}
-
-table.infobox {margin:10px;}
-
-table.resources {padding: 20px;}
-
-th {
-text-align: left;
-font-family: Frutiger_Bold; 
-}
-
-td {
-text-align: left;
-font-family: Frutiger_Book; 
-}
-
-table.resources:td {
-padding-top: 5px;
-padding-bottom: 5px;
 }
 
 table.infobox:td {
