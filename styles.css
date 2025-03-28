@@ -1,4 +1,5 @@
-@font-face { font-family: caslon; src: url('graphics/ACaslonPro-Regular.otf'); } 
+@font-face { font-family: caslon; src: url('graphics/caslon.otf'); } 
+@font-face { font-family: caslon_italic; src: url('graphics/caslon_italic.ttf'); } 
 
 function setDynamicFontSize() {
     const windowWidth = window.innerWidth;
