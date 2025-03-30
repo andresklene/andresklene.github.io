@@ -71,14 +71,29 @@ border: 1px #ffffff; border-style: solid none none none;
 padding: 5px
 }
 
-a:visited, a:link,
+a.white:visited, a.white:link, a.white:active, a.white:hover,
 {
     text-decoration: none; color:#ffffff;
 }
 
-a:active, a:hover, a.red:hover, a.red:visited, a.red:link, a.red:active
+a.pink:visited, a.pink:link,
+{
+    text-decoration: none; color:#ffffff;
+}
+a.pink:active, a.pink:hover,
 {
     text-decoration: none; color:#ff4d4d;
+}
+
+
+a.red:visited, a.red:link, a.red:active, a.red:hover,
+{
+    text-decoration: none; color:#ff4d4d;
+}
+
+a.blue:visited, a.blue:link, a.blue:active, a.blue:hover,
+{
+    text-decoration: none; color: #92a0b1;
 }
 
 hr {
