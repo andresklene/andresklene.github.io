@@ -1,25 +1,6 @@
 @font-face { font-family: caslon; src: url('graphics/caslon.otf'); } 
 @font-face { font-family: caslon_italic; src: url('graphics/caslon_italic.ttf'); } 
 
-function setDynamicFontSize() {
-    const windowWidth = window.innerWidth;
-    const maxWidth = 1000;
-    const ratio = Math.min(maxWidth, windowWidth) / windowWidth;
-    const fontSize = (2 * windowWidth * ratio) / 100;
-
-    // Apply font size to all <p> elements
-    const paragraphs = document.querySelectorAll('p');
-    paragraphs.forEach(p => {
-        p.style.fontSize = `${fontSize}vw`;
-    });
-}
-
-// Run on page load
-window.addEventListener('load', setDynamicFontSize);
-
-// Run on window resize
-window.addEventListener('resize', setDynamicFontSize);
-
 h2 {
     font-weight:normal;
 }
