@@ -19,6 +19,12 @@ font-weight: normal;
 margin:0;
 }
 
+p.none {
+    margin-top: 0; margin-bottom: 0;
+}
+
+p.notop { margin-top: 0}
+
 .header {
 padding: 15px;
 }
