@@ -20,8 +20,13 @@ window.addEventListener('load', setDynamicFontSize);
 // Run on window resize
 window.addEventListener('resize', setDynamicFontSize);
 
+h2 {
+    font-weight:normal;
+}
+
 h3 {
 font-weight: normal; 
+margin-bottom: 0
 }
 
 h4 {
