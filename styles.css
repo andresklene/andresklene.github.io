@@ -71,12 +71,12 @@ border: 1px #ffffff; border-style: solid none none none;
 padding: 5px
 }
 
-a:hover, a:visited, a:link, a:active
+a:visited, a:link,
 {
     text-decoration: none; color:#ffffff;
 }
 
-a.red:hover, a.red:visited, a.red:link, a.red:active
+a:active, a:hover, a.red:hover, a.red:visited, a.red:link, a.red:active
 {
     text-decoration: none; color:#ff4d4d;
 }
