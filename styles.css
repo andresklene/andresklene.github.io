@@ -61,24 +61,22 @@ border: 1px #ffffff; border-style: solid none none none;
 padding: 5px
 }
 
-a:link {text-decoration: underline; color: #ffffff;}
-a:visited {text-decoration: underline; color: #ffffff;}
-a:hover {text-decoration: underline; color: #287eff;}
-a:active {text-decoration: underline; color: #287eff;}
+a.link, a.visited, a.hover, a.active,
+{text-decoration: none;}
 
-a.white:visited, a.white:link, a.white:active, a.white:hover,
+a.white:link, a.white:visited, a.white:hover, a.white:active,
 {color:#ffffff;}
 
-a.pink:visited, a.pink:link,
+a.pink:link, a.pink:visited, 
 {color:#ffffff;}
-a.pink:active, a.pink:hover,
+a.pink:hover, a.pink:active, 
 {color:#ff4d4d;}
 
 
-a.red:visited, a.red:link, a.red:active, a.red:hover,
+a.red:link, a.red:visited, a.red:hover, a.red:active,
 {color:#ff4d4d;}
 
-a.blue:visited, a.blue:link, a.blue:active, a.blue:hover,
+a.blue:link, a.blue:visited, a.blue:hover, a.blue:active,
 {color: #92a0b1;}
 
 hr {
