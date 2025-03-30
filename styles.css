@@ -61,8 +61,10 @@ border: 1px #ffffff; border-style: solid none none none;
 padding: 5px
 }
 
-a:visited, a:link, a:active, a:hover,
-{text-decoration: none; color:#ffffff;}
+a:link {text-decoration: underline; color: #ffffff;}
+a:visited {text-decoration: underline; color: #ffffff;}
+a:hover {text-decoration: underline; color: #287eff;}
+a:active {text-decoration: underline; color: #287eff;}
 
 a.white:visited, a.white:link, a.white:active, a.white:hover,
 {color:#ffffff;}
