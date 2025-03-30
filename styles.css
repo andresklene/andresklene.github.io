@@ -71,15 +71,10 @@ border: 1px #ffffff; border-style: solid none none none;
 padding: 5px
 }
 
-a:link {text-decoration: underline; color: #ffffff;}
-a:visited {text-decoration: underline; color: #ffffff;}
-a:hover {text-decoration: underline; color: #287eff;}
-a:active {text-decoration: underline; color: #287eff;}
-
-a.b:link {text-decoration: none; color: #ffffff;}
-a.b:visited {text-decoration: none; color: #ffffff;}
-a.b:hover {text-decoration: none; color: #ff4d4d;}
-a.b:active {text-decoration: none; color: #ff4d4d;}
+a:hover, a:visited, a:link, a:active
+{
+    text-decoration: none;
+}
 
 hr {
 border: none;
