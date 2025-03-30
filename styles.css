@@ -1,6 +1,10 @@
 @font-face { font-family: caslon; src: url('graphics/caslon.otf'); } 
 @font-face { font-family: caslon_italic; src: url('graphics/caslon_italic.ttf'); } 
 
+h1 {
+    font-weight:normal ; margin-bottom: 0px; 
+}
+
 h2 {
     font-weight:normal;
 }
