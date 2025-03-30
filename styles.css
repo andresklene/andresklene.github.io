@@ -73,7 +73,7 @@ padding: 5px
 
 a:hover, a:visited, a:link, a:active
 {
-    text-decoration: none;
+    text-decoration: inherit;
 }
 
 hr {
