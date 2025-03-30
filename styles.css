@@ -19,7 +19,7 @@ font-weight: normal;
 margin:0;
 }
 
-header {
+.header {
 padding: 15px;
 }
 
@@ -61,8 +61,8 @@ border: 1px #ffffff; border-style: solid none none none;
 padding: 5px
 }
 
-a.link, a.visited, a.hover, a.active,
-{text-decoration: none; color: #ffffff}
+a:link, a:visited, a:hover, a:active,
+{text-decoration: none}
 
 a.white:link, a.white:visited, a.white:hover, a.white:active,
 {color:#ffffff;}
