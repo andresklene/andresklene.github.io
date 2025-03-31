@@ -31,30 +31,11 @@ footer {
 }
 
 .content {
-max-width: 805px;
+max-width: 800px;
 margin: auto;
 color: #ffffff;
 font-family:caslon;
 font-weight: normal; 
-}
-
-.box {
-background-color: #f8f9fa; 
-width: 320px;
-min-height: 100px;
-overflow: hidden;
-border: 1px solid #eaecf0;
-padding: 3px;
-margin-left: 40px;
-margin-bottom: 40px;
-margin-top: 16px;
-text-align: center; font-size:90%
-}
-
-.namebox {background-color: #282828; 
-max-width: 1000px;
-border: 1px #ffffff; border-style: solid none none none;
-padding: 5px
 }
 
 a {text-decoration: none; color:#ffffff; border: thin dashed transparent}
