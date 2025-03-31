@@ -38,7 +38,9 @@ font-family:caslon;
 font-weight: normal; 
 }
 
-a {text-decoration: none; color:#ffffff; border: thin dashed transparent}
+a {text-decoration: none;}
+
+a.white {color:#ffffff;}
 
 a.dashed:link, a.dashed:visited {text-decoration: underline; text-decoration-thickness: 1px;  text-underline-offset: .15em;}
 a.dashed:hover {text-decoration: none}
