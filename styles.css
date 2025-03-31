@@ -40,10 +40,9 @@ font-weight: normal;
 
 a {text-decoration: none; color:#ffffff; border: thin dashed transparent}
 
-a.dashed {text-decoration: underline; text-decoration-thickness: .05em; text-underline-offset: .15em;}
-
-a.dashed:link, a.dashed:visited {}
-a.dashed:hover, a.dashed:active {border: thin dashed #ffffff}
+a.dashed:link, a.dashed:visited {text-decoration: underline; text-decoration-thickness: 1px;  text-underline-offset: .15em;}
+a.dashed:hover {text-decoration: none}
+a.dashed:active {color: #ff4d4d}
 
 a.pink:hover, a.pink:active {color:#ff4d4d} 
 
