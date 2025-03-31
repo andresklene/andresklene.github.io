@@ -67,10 +67,10 @@ a.white:visited {text-decoration: none; color:#ffffff}
 a.white:hover {text-decoration: none; color:#ffffff}
 a.white:active {text-decoration: none; color:#ffffff}
 
-a.dashed:link {text-decoration: none; color:#ffffff; border-style: dashed; border-color: #ff4d4d;}
-a.dashed:visited {text-decoration: none; color:#ffffff; border-style: dashed; border-color: #ff4d4d;}
-a.dashed:hover {text-decoration: none; color:#ffffff; border-style: dashed; border-color: #ff4d4d;}
-a.dashed:active {text-decoration: none; color:#ffffff; border-style: dashed; border-color: #ff4d4d;}
+a.dashed:link {text-decoration: underline; text-decoration-thickness: .05em; text-underline-offset: .15em; color:#ffffff; border-style: dashed; border-color: #ff4d4d;}
+a.dashed:visited {text-decoration: underline; text-decoration-thickness: .05em; text-underline-offset: .15em; color: #ffffff; border-style: dashed; border-color: #ff4d4d;}
+a.dashed:hover {text-decoration: underline; text-decoration-thickness: .05em; text-underline-offset: .15em; color: #ffffff; border-style: dashed; border-color: #ff4d4d;}
+a.dashed:active {text-decoration: underline; text-decoration-thickness: .05em; text-underline-offset: .15em; color: #ffffff; border-style: dashed; border-color: #ff4d4d;}
 
 a.pink:link {text-decoration: none; color:#ffffff}
 a.pink:visited {text-decoration: none; color:#ffffff}
