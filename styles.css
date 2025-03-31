@@ -57,10 +57,10 @@ border: 1px #ffffff; border-style: solid none none none;
 padding: 5px
 }
 
-a:link {text-decoration: none; color:#ffffff}
-a:visited {text-decoration: none; color:#ffffff}
-a:hover {text-decoration: none; color:#ffffff}
-a:active {text-decoration: none; color:#ffffff}
+a:link {text-decoration: none; color:#ffffff; border: thin dashed transparent}
+a:visited {text-decoration: none; color:#ffffff; border: thin dashed transparent}
+a:hover {text-decoration: none; color:#ffffff; border: thin dashed transparent}
+a:active {text-decoration: none; color:#ffffff; border: thin dashed transparent}
 
 a.white:link {text-decoration: none; color:#ffffff} 
 a.white:visited {text-decoration: none; color:#ffffff}
@@ -69,8 +69,8 @@ a.white:active {text-decoration: none; color:#ffffff}
 
 a.dashed:link {text-decoration: underline; text-decoration-thickness: .05em; text-underline-offset: .15em; color:#ffffff; }
 a.dashed:visited {text-decoration: underline; text-decoration-thickness: .05em; text-underline-offset: .15em; color: #ffffff;}
-a.dashed:hover {text-decoration: underline; text-decoration-thickness: .05em; text-underline-offset: .15em; color: #ffffff; outline: thin dashed #ffffff; outline-offset: 0px;}
-a.dashed:active {text-decoration: underline; text-decoration-thickness: .05em; text-underline-offset: .15em; color: #ffffff; outline: thin dashed #ffffff; outline-offset: 0px;}
+a.dashed:hover {text-decoration: underline; text-decoration-thickness: .05em; text-underline-offset: .15em; color: #ffffff; border: thin dashed #ffffff}
+a.dashed:active {text-decoration: underline; text-decoration-thickness: .05em; text-underline-offset: .15em; color: #ffffff; border: thin dashed #ffffff}
 
 a.pink:link {text-decoration: none; color:#ffffff}
 a.pink:visited {text-decoration: none; color:#ffffff}
