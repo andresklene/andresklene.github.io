@@ -65,6 +65,5 @@ height:1px;
   max-height: 0;
   overflow: hidden;
   transition: max-height 0.1s ease-out;
-  background-color: #ff4d4d;
-color:#000000
+  background-color: #282828;
 }
