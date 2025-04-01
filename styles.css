@@ -42,8 +42,8 @@ a {text-decoration: none;}
 
 a.white {color:#ffffff;}
 
-a.dashed:link, a.dashed:visited {text-decoration: underline; text-decoration-thickness: 1px;  text-underline-offset: .15em;}
-a.dashed:hover {text-decoration: none}
+a.dashed:link, a.dashed:visited {}
+a.dashed:hover {text-decoration: underline; text-decoration-thickness: 1px;  text-underline-offset: .15em;}
 a.dashed:active {color: #ff4d4d}
 
 a.pink:link, a.pink:visited {color:#ffffff}
