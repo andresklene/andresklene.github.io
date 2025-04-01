@@ -61,10 +61,11 @@ height:1px;
 }
 
 .card {
-  padding: 20px;
+  padding-left: 20px;
   max-height: 0;
   overflow: hidden;
   transition: max-height 0.2s ease-out;
   background-color: #282828;
-    margin:0;
+color:#ffffff;
+cursor: pointer;
 }
