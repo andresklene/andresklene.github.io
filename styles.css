@@ -66,4 +66,5 @@ height:1px;
   overflow: hidden;
   transition: max-height 0.2s ease-out;
   background-color: #282828;
+    margin:0;
 }
