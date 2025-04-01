@@ -20,8 +20,11 @@
 Papers
 </h3>
  <hr>
-<h3>Deformation theory and connections</h3>
+<h3><a class="collapsible">Deformation theory and connections</a></h3>
 <h4 style="color:#92a0b1"><a class="blue dashed" href=".">arXiv:2404.01406</a> </h4>
+ <div class="card">
+  <p>Abstract</p>
+</div>
 <p style="margin-top:0"><a class="white dashed" href=".">LeBron James</a>, Andres Klene</p>
 <hr>
 <h3>Parallel transport for gerbes</h3>
@@ -36,6 +39,23 @@ Notes
 <h4 style="color: #92a0b1;">arxiv link maybe?</h4>
 <p style="margin-top: 0;">Andres Klene</p>
 
+<script>
+var coll = document.getElementsByClassName("collapsible");
+var i;
+
+for (i = 0; i < coll.length; i++) {
+  coll[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var card = this.nextElementSibling;
+    if (card.style.maxHeight){
+      card.style.maxHeight = null;
+    } else {
+      card.style.maxHeight = card.scrollHeight + "px";
+    } 
+  });
+}
+</script>
+ 
 </body>
 </div>
 </html>
