@@ -61,7 +61,7 @@ height:1px;
 }
 
 .card {
-  padding-left: 20px;
+  padding: 20px;
   max-height: 0;
   overflow: hidden;
   transition: max-height 0.2s ease-out;
