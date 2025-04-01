@@ -59,3 +59,12 @@ background-color:#333333;
 height:1px;
  margin-bottom: 20px;
 }
+
+.card {
+  padding: 0;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.1s ease-out;
+  background-color: #ff4d4d;
+color:#000000
+}
