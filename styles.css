@@ -18,10 +18,33 @@ font-weight: normal;
 margin:0;
 }
 
+
+.content {
+max-width: 1400px;
+margin: auto;
+color: #ffffff;
+font-family:caslon;
+font-weight: normal; 
+    padding:20px;
+}
+
 body {
  padding: 0;
  margin: 0;
 background: #202020;
+line-height: 1;
+color: #ffffff;
+font-family:caslon;
+font-weight: normal; 
+}
+@media (min-width: 1200px) {
+    body:not([class*=gin--edit-form]) {
+        font-size: 22px;
+    }
+}
+body:not([class*=gin--edit-form]) {
+    font-size: 18px;
+    line-height: 1.45;
 }
 
 footer {
@@ -72,10 +95,13 @@ height:1px;
 }
 
 /* Clear floats after the columns */
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
+.row {
+    box-sizing: border-box;
+    display: flex
+;
+    flex-wrap: wrap;
+    margin-left: -10px;
+    margin-right: -10px;
 }
 
 /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
@@ -110,4 +136,39 @@ height:1px;
   .flex-container {
     flex-direction: column;
   }
+}
+
+.base__main {
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: 0 auto;
+    max-width: 1000px;
+}
+@media (min-width: 1070px) {
+    .base__main {
+        padding-left: 60px;
+        padding-right: 60px;
+    }
+}
+@media (min-width: 768px) {
+    .base__main {
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+}
+
+.col-12 {
+    box-sizing: border-box;
+    flex: 0 0 calc(100% - 20px);
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+@media (min-width: 1070px) {
+    .col-lg-6 {
+        box-sizing: border-box;
+        flex: 0 0 calc(50% - 20px);
+        margin-left: 10px;
+        margin-right: 10px;
+    }
 }
