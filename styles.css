@@ -1,9 +1,16 @@
 @font-face { font-family: caslon; src: url('graphics/caslon.otf'); } 
-@font-face { font-family: caslon_italic; src: url('graphics/caslon_italic.ttf'); } 
+@font-face { font-family: caslon_italic; src: url('graphics/caslon_italic.ttf'); }
+
+img {
+object-fit: cover;
+  width: 100%;
+}
 
 h1 {
     font-weight:normal ; margin-bottom: 0px; 
 }
+
+section {padding:20px}
 
 h2 {
     font-weight:normal;
@@ -37,6 +44,7 @@ color: #ffffff;
 font-family:caslon;
 font-weight: normal; 
 }
+
 @media (min-width: 1200px) {
     body:not([class*=gin--edit-form]) {
         font-size: 22px;
@@ -171,4 +179,42 @@ height:1px;
         margin-left: 10px;
         margin-right: 10px;
     }
+}
+
+@media (min-width: 1070px) {
+    .col-lg-9 {
+        box-sizing: border-box;
+        flex: 0 0 calc(33% - 20px);
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+}
+
+
+#navbar {
+  position: sticky;
+  top: 0;
+  overflow: hidden;
+  background-color: #333333;
+font-family: caslon
+}
+
+#navbar a {
+  float: left;
+  display: block;
+  color: #ffffff;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+font-family:caslon;
+}
+
+#navbar a:hover {
+  color: #ff4242;
+}
+
+#navbar a.active {
+  background-color: #04AA6D;
+  color: white;
 }
