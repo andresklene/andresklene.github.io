@@ -35,6 +35,7 @@ margin: auto;
 color: #ffffff;
 font-family:caslon;
 font-weight: normal; 
+    padding:20px;
 }
 
 a {text-decoration: none; color:inherit;}
