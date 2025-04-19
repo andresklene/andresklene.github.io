@@ -108,12 +108,6 @@ height:1px;
 }
 
 /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
-@media screen and (max-width: 600px) {
-  .column {
-    width: 100%;
-  }
-}
-
 .base__main {
     padding-left: 20px;
     padding-right: 20px;
@@ -125,10 +119,3 @@ height:1px;
     box-sizing: border-box;
     flex: 0 0 calc(100%);
 }
-
-
-    .col-lg-6 {
-        box-sizing: border-box;
-        flex: 0 0 calc(53%);
-        margin:0;
-    }
