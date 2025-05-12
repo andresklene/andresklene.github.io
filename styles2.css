@@ -39,7 +39,7 @@ font-weight: normal;
 }
 
 a {text-decoration: none; color:#92a0b1;}
-a:hover, {text-decoration: underline; text-decoration-thickness: 1px;  text-underline-offset: .15em; color: #287eff}
+a:hover {text-decoration: underline; text-decoration-thickness: 1px;  text-underline-offset: .15em;}
 
 hr {
 border: none;
