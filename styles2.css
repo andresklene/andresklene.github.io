@@ -30,13 +30,10 @@ margin:0;
 body {
  padding: 0;
  margin: 0;
-background: #fffdd0;
-line-height: 1;
+background: #fafef2;
 color: #000;
 font-family:atkinson;
-font-weight: normal; 
   line-height: 1.45;
-  font-size:100%
 }
 
 a {text-decoration: none; color:#92a0b1;}
@@ -72,6 +69,8 @@ background-color:#000;
   padding-right:20px;
     margin: auto;
     max-width: 730px;
+  background: #fffdd0;
+  border: 1px solid #000;
 }
 
 .col-12 {
