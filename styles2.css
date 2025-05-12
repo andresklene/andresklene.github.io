@@ -46,11 +46,8 @@ font-weight: normal;
     padding:20px;
 }
 
-a {text-decoration: none; color:inherit;}
-
-a.dashed:link, a.dashed:visited {}
-a.dashed:hover {text-decoration: underline; text-decoration-thickness: 1px;  text-underline-offset: .15em;}
-a.dashed:active {color: #ff4d4d}
+a {text-decoration: underline; text-decoration-thickness: 1px;  text-underline-offset: .15em; color:inherit;}
+a:active {color: #ff4d4d}
 
 a.pink:link, a.pink:visited {color:#ffffff}
 a.pink:hover, a.pink:active {color:#ff4d4d} 
