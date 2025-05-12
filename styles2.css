@@ -1,5 +1,6 @@
 @font-face { font-family: caslon; src: url('graphics/caslon.otf'); } 
 @font-face { font-family: caslon_italic; src: url('graphics/caslon_italic.ttf'); }
+@font-face {font-family: atkinson; src: url('graphics/AtikinsonHyperlegible-Regular.ttf'); }
 
 img {
 object-fit: cover;
@@ -32,7 +33,7 @@ body {
 background: #fffdd0;
 line-height: 1;
 color: #000;
-font-family:caslon;
+font-family:atkinson;
 font-weight: normal; 
   line-height: 1.45;
   font-size:110%
