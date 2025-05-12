@@ -47,12 +47,7 @@ font-weight: normal;
 }
 
 a {text-decoration: underline; text-decoration-thickness: 1px;  text-underline-offset: .15em; color:inherit;}
-a:active {color: #ff4d4d}
-
-a.pink:link, a.pink:visited {color:#ffffff}
-a.pink:hover, a.pink:active {color:#ff4d4d} 
-
-a.red {color:#ff4d4d}
+a:hover, a:active {color: #287eff}
 
 hr {
 border: none;
