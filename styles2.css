@@ -40,13 +40,12 @@ font-weight: normal;
 }
 
 a {text-decoration: none; color:#92a0b1;}
-a:hover {text-decoration: underline; text-decoration-thickness: 1px;  text-underline-offset: .15em;}
+a:hover {text-decoration: underline;}
 a:active {text-decoration: none;}
 
 hr {
 border: none;
 background-color:#000;
-height:1px;
  margin-bottom: 20px;
 }
 
