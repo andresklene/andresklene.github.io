@@ -36,14 +36,15 @@ font-family:caslon;
 font-weight: normal; 
 }
 
-@media (min-width: 1200px) {
+body:not([class*=gin--edit-form]) {
+    font-size: 18px;
+    line-height: 1.45;
+}
+
+@media screen {
     body:not([class*=gin--edit-form]) {
         font-size: 22px;
     }
-}
-body:not([class*=gin--edit-form]) {
-    font-size: 13px;
-    line-height: 1.45;
 }
 
 .content {
