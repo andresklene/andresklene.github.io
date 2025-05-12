@@ -47,8 +47,8 @@ font-weight: normal;
     padding:20px;
 }
 
-a {text-decoration: underline; text-decoration-thickness: 1px;  text-underline-offset: .15em; color:inherit;}
-a:hover, a:active {color: #287eff}
+a {text-decoration: none; color:#92a0b1;}
+a:hover, {text-decoration: underline; text-decoration-thickness: 1px;  text-underline-offset: .15em; color: #287eff}
 
 hr {
 border: none;
