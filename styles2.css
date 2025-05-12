@@ -96,7 +96,7 @@ height:1px;
 /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
 .base__main {
     padding:10px;
-    margin: 0 auto;
+    margin: 20px auto;
     max-width: 690px;
 }
 
