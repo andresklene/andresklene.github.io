@@ -76,6 +76,7 @@ background-color:#000;
   margin-right:auto;
     max-width: 730px;
   background: #fffdd0;
+    box-shadow: 10px 10px rgb(0 0 0 / 0.2);
 }
 
 .col-12 {
