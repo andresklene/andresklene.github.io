@@ -24,6 +24,7 @@ body {
 background: #fffdd0;
 font-family:atkinson;
   line-height: 1.5;
+    margin:20px;
 }
 
 a {text-decoration: none; color:#92a0b1;}
