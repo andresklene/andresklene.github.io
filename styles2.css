@@ -4,7 +4,7 @@
 
 ::selection {
   color: white;            /* Text color when selected */
-  background: #dfeefc;       /* Background color when selected */
+  text-decoration-color: white;
 }
 
 h1 {
