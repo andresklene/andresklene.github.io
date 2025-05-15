@@ -1,6 +1,6 @@
 @font-face { font-family: caslon; src: url('graphics/caslon.otf'); } 
 @font-face { font-family: caslon_italic; src: url('graphics/caslon_italic.ttf'); }
-@font-face { font-family: atkinson; src: url('graphics/AtkinsonHyperlegible-Regular.ttf'); 
+@font-face { font-family: atkinson; src: url('graphics/AtkinsonHyperlegible-Regular.ttf'); }
 
 h1 {
     font-weight:normal; 
