@@ -1,11 +1,6 @@
 @font-face { font-family: caslon; src: url('graphics/caslon.otf'); } 
 @font-face { font-family: caslon_italic; src: url('graphics/caslon_italic.ttf'); }
-@font-face { font-family: atkinson; src: url('graphics/AtkinsonHyperlegible-Regular.ttf'); }
-
-::selection {
-  color: white;            /* Text color when selected */
-  text-decoration-color: white;
-}
+@font-face { font-family: atkinson; src: url('graphics/AtkinsonHyperlegible-Regular.ttf'); 
 
 h1 {
     font-weight:normal; 
