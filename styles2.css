@@ -63,3 +63,16 @@ margin-inline: clamp(20px, calc(29.1vw - 161.8px), 19.1vw)
     box-sizing: border-box;
     flex: 0 0 calc(100%);
 }
+
+summary {
+  list-style: none;           /* removes default arrow in some browsers */
+  cursor: pointer;
+}
+
+summary::-webkit-details-marker {
+  display: none;              /* removes arrow in Chrome/Safari */
+}
+
+summary::marker {
+  display: none;              /* removes arrow in Firefox */
+}
