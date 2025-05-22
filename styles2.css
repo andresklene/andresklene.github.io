@@ -8,7 +8,8 @@
 ::selection {background-color: #ade0d9}
 
 section {
-margin-inline: clamp(20px, calc(30vw - 100px), 25vw)
+margin:auto;
+  max-width: 800px;
 }
 
 h1 {
@@ -41,7 +42,7 @@ body {
 background: #fffdd0;
 font-family:libertine;
   line-height: 1.5;
-    margin:0
+    margin:20px;
 }
 
 a {text-decoration: none; color:#92a0b1;}
