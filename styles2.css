@@ -9,7 +9,7 @@
 
 section {
 margin:auto;
-  max-width: 800px;
+  max-width: 600px;
 }
 
 h1 {
@@ -29,7 +29,7 @@ margin-top:0;
 
 h3 {
     font-weight:normal;
-    border-bottom: 1.5px solid #000;
+    border-bottom: 1px solid #000;
   color: #ff4d4d;
     font-family: libertine_italic;
 }
@@ -45,7 +45,7 @@ font-family:libertine;
     margin:20px;
 }
 
-a {text-decoration: none; color:#92a0b1;}
+a {text-decoration: none; color:#9a5bb3;}
 a:hover {text-decoration: underline;}
 a:active {text-decoration: none;}
 
