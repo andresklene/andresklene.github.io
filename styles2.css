@@ -5,6 +5,15 @@
 @font-face { font-family: libertine_italic; src: url('graphics/LinLibertine_RI.ttf'); }
 @font-face { font-family: libertine_caps; src: url('graphics/LinLibertine_aS.ttf'); }
 
+h1 {font-weight:normal; font-size:300%}
+
+h6 {
+margin-top:0; 
+    text-align:center; 
+    font-family:libertine_caps;
+    margin-bottom: 41.5px;
+}
+
 h2 {
     font-weight:normal;
     border-bottom: 1.5px solid #000;
