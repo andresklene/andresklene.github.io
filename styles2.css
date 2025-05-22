@@ -1,15 +1,18 @@
 @font-face { font-family: caslon; src: url('graphics/caslon.otf'); } 
 @font-face { font-family: caslon_italic; src: url('graphics/caslon_italic.ttf'); }
 @font-face { font-family: atkinson; src: url('graphics/AtkinsonHyperlegibleNext-Regular.ttf'); }
+@font-face { font-family: libertine; src: url('graphics/LinLibertine_R.ttf'); }
 
 h1 {
     font-weight:normal; 
+    font-family: caslon;
 }
 
 h2 {
     font-weight:normal;
     border-bottom: 1.5px solid #000;
   color: #ff4d4d;
+    font-family: caslon_italic;
 }
 
 h3 {
@@ -18,7 +21,7 @@ font-weight: normal;
 
 body {
 background: #fffdd0;
-font-family:atkinson;
+font-family:libertine;
   line-height: 1.5;
 }
 
