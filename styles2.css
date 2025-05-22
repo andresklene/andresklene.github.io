@@ -5,6 +5,8 @@
 @font-face { font-family: libertine_italic; src: url('graphics/LinLibertine_RI.ttf'); }
 @font-face { font-family: libertine_caps; src: url('graphics/LinLibertine_aS.ttf'); }
 
+::selection {background-color: #ade0d9}
+
 h1 {font-weight:normal; font-size:300%}
 
 h6 {
