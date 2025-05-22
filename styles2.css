@@ -4,10 +4,6 @@
 @font-face { font-family: libertine; src: url('graphics/LinLibertine_R.ttf'); }
 @font-face { font-family: libertine_italic; src: url('graphics/LinLibertine_RI.ttf'); }
 
-h1 {
-    font-weight:normal; 
-}
-
 h2 {
     font-weight:normal;
     border-bottom: 1.5px solid #000;
