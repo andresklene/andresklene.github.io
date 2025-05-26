@@ -4,6 +4,7 @@
 @font-face { font-family: libertine; src: url('graphics/LinLibertine_R.ttf'); }
 @font-face { font-family: libertine_italic; src: url('graphics/LinLibertine_RI.ttf'); }
 @font-face { font-family: libertine_caps; src: url('graphics/LinLibertine_aS.ttf'); }
+@font-face { font-family: texttt; src: url('graphics/texttt.ttf'); }
 
 ::selection {background-color: #ade0d9}
 
@@ -14,15 +15,16 @@ margin:auto;
 
 h1 {
     font-weight:normal; 
-    font-size:300%;
+    font-size:250%;
    text-align:center; 
-    margin-bottom:0
+    margin-bottom:0;
+  font-family:libertine_caps
 }
 
 h6 {
 margin-top:0; 
     text-align:center; 
-    font-family:libertine_caps;
+    font-family:texttt;
     font-weight:normal;
     font-size: 100%
 }
@@ -31,11 +33,12 @@ h3 {
     font-weight:normal;
     border-bottom: 1px solid #000;
   color: #ff4d4d;
-    font-family: libertine_italic;
+    font-family: libertine_caps;
 }
 
 h4 {
 font-weight: normal; 
+  font-family:libertine_italic;
 }
 
 body {
