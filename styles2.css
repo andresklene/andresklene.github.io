@@ -42,12 +42,12 @@ h3 {
     font-weight:normal;
     border-bottom: 1px solid #000;
   color: #ff4d4d;
-    font-family: libertine_caps;
+    font-family: libertine_italic;
 }
 
 h4 {
 font-weight: normal; 
-  font-family:libertine_italic;
+  font-family:libertine_caps;
 }
 
 body {
