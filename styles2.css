@@ -9,17 +9,18 @@
 
 ::selection {background-color: #ade0d9}
 
-.email {margin-top:0; 
+p {margin-top :0;}
+
+.email {
     text-align:center; 
     font-family:texttt;
-    font-weight:normal;
-        font-size:90%
+        font-size:90%;
 }
       
 
 section {
 margin:auto;
-  max-width: 600px;
+  max-width: 611px;
 }
 
 h1 {
@@ -48,6 +49,8 @@ h3 {
 h4 {
 font-weight: normal; 
   font-family:libertine_caps;
+  font-size: 117%;
+  margin:0;
 }
 
 body {
