@@ -20,7 +20,7 @@ p {margin-top :0;}
 
 section {
 margin:auto;
-  max-width: 611px;
+  max-width: 672px;
 }
 
 h1 {
@@ -58,6 +58,7 @@ background: #fffdd0;
 font-family:libertine;
   line-height: 1.5;
     margin:20px;
+    font-size:110%
 }
 
 a {text-decoration: none; color:#92a0b1;}
