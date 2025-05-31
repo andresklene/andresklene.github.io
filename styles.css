@@ -1,220 +1,64 @@
-@font-face { font-family: caslon; src: url('graphics/caslon.otf'); } 
-@font-face { font-family: caslon_italic; src: url('graphics/caslon_italic.ttf'); }
+@font-face { font-family: libertine; src: url('graphics/LinLibertine_R.ttf'); }
+@font-face { font-family: libertine_italic; src: url('graphics/LinLibertine_RI.ttf'); }
+@font-face { font-family: libertine_caps; src: url('graphics/LinLibertine_aS.ttf'); }
+@font-face { font-family: libertine_bold; src: url('graphics/LinLibertine_RB.ttf'); }
+@font-face { font-family: texttt; src: url('graphics/texttt.ttf'); }
 
-img {
-object-fit: cover;
-  width: 100%;
+::selection {background-color: #ade0d9; color:#000}
+
+p {margin-top :0;}
+
+.email {
+    text-align:center; 
+}     
+
+section {
+margin:auto;
+  max-width: 600px;
 }
 
 h1 {
-    font-weight:normal ; margin-bottom: 0px; 
-}
-
-section {padding:20px}
-
-h2 {
-    font-weight:normal;
+    font-weight:normal; 
+    font-size:250%;
+   text-align:center; 
+    margin-bottom:0;
 }
 
 h3 {
-font-weight: normal; 
+    font-weight:normal;
+    border-bottom: 1px solid #333;
+  color: #ff4d4d;
+    font-family: libertine_italic;
 }
 
 h4 {
 font-weight: normal; 
-margin:0;
-}
-
-
-.content {
-max-width: 1400px;
-margin: auto;
-color: #ffffff;
-font-family:caslon;
-font-weight: normal; 
-    padding:20px;
+  font-family:libertine_italic;
+  margin:0;
 }
 
 body {
- padding: 0;
- margin: 0;
 background: #202020;
-line-height: 1;
-color: #ffffff;
-font-family:caslon;
-font-weight: normal; 
+  color:#fff;
+font-family:libertine;
+  line-height: 1.5;
+    margin:20px;
+    font-size:100%
 }
 
-@media (min-width: 1200px) {
-    body:not([class*=gin--edit-form]) {
-        font-size: 22px;
-    }
-}
-body:not([class*=gin--edit-form]) {
-    font-size: 18px;
-    line-height: 1.45;
-}
+a {text-decoration: none; color:#92a0b1;}
+a:hover {text-decoration: underline;}
+a:active {text-decoration: none;}
 
-footer {
- padding: 3px;
- background: #000000;
+summary {
+  list-style: none;           /* removes default arrow in some browsers */
+  cursor: pointer;
 }
 
-.content {
-max-width: 1400px;
-margin: auto;
-color: #ffffff;
-font-family:caslon;
-font-weight: normal; 
-    padding:20px;
+summary::-webkit-details-marker {
+  display: none;              /* removes arrow in Chrome/Safari */
 }
 
-a {text-decoration: none; color:inherit;}
-
-a.dashed:link, a.dashed:visited {}
-a.dashed:hover {text-decoration: underline; text-decoration-thickness: 1px;  text-underline-offset: .15em;}
-a.dashed:active {color: #ff4d4d}
-
-a.pink:link, a.pink:visited {color:#ffffff}
-a.pink:hover, a.pink:active {color:#ff4d4d} 
-
-a.red {color:#ff4d4d}
-
-hr {
-border: none;
-background-color:#333333;
-height:1px;
- margin-bottom: 20px;
-}
-
-* {
-  box-sizing: border-box;
-}
-
-
-/* ---------------------------- */
-
-
-/* Create two equal columns that floats next to each other */
-.column {
-  float: left;
-  width: 50%;
-  padding: 10px;
-}
-
-/* Clear floats after the columns */
-.row {
-    box-sizing: border-box;
-    display: flex
-;
-    flex-wrap: wrap;
-    margin-left: -10px;
-    margin-right: -10px;
-}
-
-/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
-@media screen and (max-width: 600px) {
-  .column {
-    width: 100%;
-  }
-}
-
-/* ------- */
-.flex-container {
-  display: flex;
-  flex-direction: row;
-  font-size: 30px;
-  text-align: center;
-}
-
-.flex-item-left {
-  background-color: #f1f1f1;
-  padding: 10px;
-  flex: 50%;
-}
-
-.flex-item-right {
-  background-color: dodgerblue;
-  padding: 10px;
-  flex: 50%;
-}
-
-/* Responsive layout - makes a one column layout instead of a two-column layout */
-@media (max-width: 800px) {
-  .flex-container {
-    flex-direction: column;
-  }
-}
-
-.base__main {
-    padding-left: 20px;
-    padding-right: 20px;
-    margin: 0 auto;
-    max-width: 1000px;
-}
-@media (min-width: 1070px) {
-    .base__main {
-        padding-left: 60px;
-        padding-right: 60px;
-    }
-}
-@media (min-width: 768px) {
-    .base__main {
-        padding-left: 40px;
-        padding-right: 40px;
-    }
-}
-
-.col-12 {
-    box-sizing: border-box;
-    flex: 0 0 calc(100% - 20px);
-    margin-left: 10px;
-    margin-right: 10px;
-}
-
-@media (min-width: 1070px) {
-    .col-lg-6 {
-        box-sizing: border-box;
-        flex: 0 0 calc(50% - 20px);
-        margin-left: 10px;
-        margin-right: 10px;
-    }
-}
-
-@media (min-width: 1070px) {
-    .col-lg-9 {
-        box-sizing: border-box;
-        flex: 0 0 calc(33% - 20px);
-        margin-left: 10px;
-        margin-right: 10px;
-    }
-}
-
-
-#navbar {
-  position: sticky;
-  top: 0;
-  overflow: hidden;
-  background-color: #333333;
-font-family: caslon
-}
-
-#navbar a {
-  float: left;
-  display: block;
-  color: #ffffff;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-  font-size: 17px;
-font-family:caslon;
-}
-
-#navbar a:hover {
-  color: #ff4242;
-}
-
-#navbar a.active {
-  background-color: #04AA6D;
-  color: white;
+summary::marker {
+  display: none;              /* removes arrow in Firefox */
 }
