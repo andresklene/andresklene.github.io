@@ -1,8 +1,12 @@
+@font-face { font-family: caslon; src: url('graphics/caslon.otf'); }
 @font-face { font-family: libertine; src: url('graphics/LinLibertine_R.ttf'); }
 @font-face { font-family: libertine_italic; src: url('graphics/LinLibertine_RI.ttf'); }
 @font-face { font-family: libertine_caps; src: url('graphics/LinLibertine_aS.ttf'); }
 @font-face { font-family: libertine_bold; src: url('graphics/LinLibertine_RB.ttf'); }
 @font-face { font-family: texttt; src: url('graphics/texttt.ttf'); }
+@font-face { font-family: fruit; src: url('graphics/Frutiger_Book.ttf'); }
+@font-face { font-family: fruitb; src: url('graphics/Frutiger_Bold.ttf'); }
+@font-face { font-family: atk; src: url('graphics/AtkinsonHyperlegibleNext-Regular.ttf'); }
 
 ::selection {background-color: #ade0d9; color:#000}
 
@@ -11,11 +15,6 @@ p {margin-top :0;}
 .email {
     text-align:center; 
 }     
-
-section {
-margin:auto;
-  max-width: 600px;
-}
 
 h1 {
     font-weight:normal; 
@@ -28,23 +27,22 @@ h3 {
     font-weight:normal;
     border-bottom: 1px solid #333;
   color: #ff4d4d;
-    font-family: libertine_italic;
 }
 
 h4 {
 font-weight: normal; 
-  font-family:libertine_italic;
+  font-family:fruitb;
   margin:0;
 }
 
 body {
 background: #202020;
   color:#fff;
-font-family:libertine;
+font-family:atk;
   line-height: 1.5;
     font-size:100%;
     margin:auto;
-    max-width:600px;
+    max-width:649px;
   padding-inline:20px;
 }
 
