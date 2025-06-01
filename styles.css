@@ -43,6 +43,7 @@ background: #202020;
 font-family:libertine;
   line-height: 1.5;
     font-size:100%
+    margin-inline: clamp(0.5em, 40vw - 10em, 25vw)
 }
 
 a {text-decoration: none; color:#92a0b1;}
@@ -60,8 +61,4 @@ summary::-webkit-details-marker {
 
 summary::marker {
   display: none;              /* removes arrow in Firefox */
-}
-
-@media only screen {
- h1 {font-size:400%}
 }
