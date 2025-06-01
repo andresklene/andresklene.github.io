@@ -43,7 +43,8 @@ background: #202020;
 font-family:libertine;
   line-height: 1.5;
     font-size:100%;
-    margin-inline: clamp(0.5em, 40vw - 10em, 25vw)
+    margin:auto;
+    max-width:600px;
 }
 
 a {text-decoration: none; color:#92a0b1;}
