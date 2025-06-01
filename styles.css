@@ -45,6 +45,7 @@ font-family:libertine;
     font-size:100%;
     margin:auto;
     max-width:600px;
+  padding-inline:20px;
 }
 
 a {text-decoration: none; color:#92a0b1;}
