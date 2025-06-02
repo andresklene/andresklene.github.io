@@ -10,7 +10,7 @@
 @font-face { font-family: atk-b; src: url('graphics/AtkinsonHyperlegibleNext-Medium.ttf'); }
 @font-face { font-family: atk-m; src: url('graphics/AtkinsonHyperlegibleMono-Regular.ttf'); }
 
-::selection {background-color: #ade0d9; color:#000}
+::selection {background-color: #dfeefc; color:#000}
 
 ul {list-style-type:square}
 
