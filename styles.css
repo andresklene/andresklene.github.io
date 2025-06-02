@@ -7,6 +7,7 @@
 @font-face { font-family: fruit; src: url('graphics/Frutiger_Book.ttf'); }
 @font-face { font-family: fruitb; src: url('graphics/Frutiger_Bold.ttf'); }
 @font-face { font-family: atk; src: url('graphics/AtkinsonHyperlegibleNext-Regular.ttf'); }
+@font-face { font-family: atk-i; src: url('graphics/AtkinsonHyperlegibleNext-Italic.ttf'); }
 
 ::selection {background-color: #ade0d9; color:#000}
 
@@ -31,7 +32,7 @@ h3 {
 
 h4 {
 font-weight: normal; 
-  font-family:fruitb;
+  font-family:atk-i;
   margin:0;
 }
 
