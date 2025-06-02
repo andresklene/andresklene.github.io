@@ -4,8 +4,6 @@
 @font-face { font-family: libertine_caps; src: url('graphics/LinLibertine_aS.ttf'); }
 @font-face { font-family: libertine_bold; src: url('graphics/LinLibertine_RB.ttf'); }
 @font-face { font-family: texttt; src: url('graphics/texttt.ttf'); }
-@font-face { font-family: fruit; src: url('graphics/Frutiger_Book.ttf'); }
-@font-face { font-family: fruitb; src: url('graphics/Frutiger_Bold.ttf'); }
 @font-face { font-family: atk; src: url('graphics/AtkinsonHyperlegibleNext-Regular.ttf'); }
 @font-face { font-family: atk-i; src: url('graphics/AtkinsonHyperlegibleNext-Italic.ttf'); }
 
@@ -45,7 +43,7 @@ font-family:atk;
   line-height: 1.5;
     font-size:100%;
     margin:auto;
-    max-width:649px;
+    max-width:632px;
   padding-inline:20px;
 }
 
