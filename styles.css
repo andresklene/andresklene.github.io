@@ -6,22 +6,18 @@
 @font-face { font-family: texttt; src: url('graphics/texttt.ttf'); }
 @font-face { font-family: atk; src: url('graphics/AtkinsonHyperlegibleNext-Regular.ttf'); }
 @font-face { font-family: atk-i; src: url('graphics/AtkinsonHyperlegibleNext-Italic.ttf'); }
+@font-face { font-family: atk-b; src: url('graphics/AtkinsonHyperlegibleNext-Bold.ttf'); }
+@font-face { font-family: atk-m; src: url('graphics/AtkinsonHyperlegibleMono-Regular.ttf'); }
 
 ::selection {background-color: #ade0d9; color:#000}
 
-li::marker {
-  font-family:atk-i;
-}
-
-ol {
-  padding-left: 1.2em; /* or even 1em or 0 if you want it truly flush */
-}
+ul {list-style-type:square}
 
 p {margin-top :0;}
 
 .email {
     text-align:center; 
-    font-family:texttt;
+    font-family:atk-b;
     font-size:90%;
 }     
 
@@ -39,9 +35,8 @@ h3 {
 }
 
 h4 {
-font-weight: normal; 
-  font-family:atk-i;
   margin:0;
+  font-family:atk-b
 }
 
 body {
