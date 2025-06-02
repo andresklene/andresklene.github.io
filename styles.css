@@ -5,7 +5,7 @@
 @font-face { font-family: libertine_bold; src: url('graphics/LinLibertine_RB.ttf'); }
 @font-face { font-family: texttt; src: url('graphics/texttt.ttf'); }
 @font-face { font-family: courier; src: url('graphics/CourierPrime-Regular.ttf'); }
-@font-face { font-family: atk; src: url('graphics/AtkinsonHyperlegibleNext-Regular.ttf'); }
+@font-face { font-family: atk; src: url('graphics/AtkinsonHyperlegibleNext-Light.ttf'); }
 @font-face { font-family: atk-i; src: url('graphics/AtkinsonHyperlegibleNext-Italic.ttf'); }
 @font-face { font-family: atk-b; src: url('graphics/AtkinsonHyperlegibleNext-Medium.ttf'); }
 @font-face { font-family: atk-m; src: url('graphics/AtkinsonHyperlegibleMono-Regular.ttf'); }
