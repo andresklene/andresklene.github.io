@@ -47,8 +47,9 @@ background: #202020;
 font-family:atk;
   line-height: 1.5;
     margin:auto;
-    max-width:500px;
+    max-width:614px;
   padding-inline:20px;
+    font-size:125%;
 }
 
 a {text-decoration: none; color:#92a0b1;}
