@@ -38,7 +38,7 @@ h3 {
 h4 {
   margin:0;
     font-weight:normal;
-  font-family:atk-b
+  font-family:atk-b;
 }
 
 body {
@@ -46,9 +46,8 @@ background: #202020;
   color:#fff;
 font-family:atk;
   line-height: 1.5;
-    font-size:100%;
     margin:auto;
-    max-width:632px;
+    max-width:614px;
   padding-inline:20px;
 }
 
