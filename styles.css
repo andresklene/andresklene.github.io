@@ -9,6 +9,14 @@
 
 ::selection {background-color: #ade0d9; color:#000}
 
+li::marker {
+  font-family:atk-i;
+}
+
+ol {
+  padding-left: 1.2em; /* or even 1em or 0 if you want it truly flush */
+}
+
 p {margin-top :0;}
 
 .email {
