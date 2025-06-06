@@ -12,6 +12,10 @@
 @font-face { font-family: atk-i; src: url('graphics/AtkinsonHyperlegibleNext-LightItalic.ttf'); }
 @font-face { font-family: atk-b; src: url('graphics/AtkinsonHyperlegibleNext-Medium.ttf'); }
 
+:root {
+  font-size: 20px;
+}
+
 ::selection {background-color: #dfeefc; color:#000}
 
 ul {list-style-type:square}
@@ -50,8 +54,9 @@ background: #202020;
 font-family:atk;
   line-height: 1.5;
     margin:auto;
-    max-width:31em;
-  padding:1em;
+    max-width:31rem;
+  padding:1rem;
+  
 }
 
 a {text-decoration: none; color:#92a0b1;}
