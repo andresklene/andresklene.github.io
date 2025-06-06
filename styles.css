@@ -12,8 +12,10 @@
 @font-face { font-family: atk-i; src: url('graphics/AtkinsonHyperlegibleNext-LightItalic.ttf'); }
 @font-face { font-family: atk-b; src: url('graphics/AtkinsonHyperlegibleNext-Medium.ttf'); }
 
-:root {
-  font-size: 20px;
+@media (min-width: 768px) {
+  :root {
+    font-size: 20px;
+  }
 }
 
 ::selection {background-color: #dfeefc; color:#000}
