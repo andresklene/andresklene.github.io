@@ -25,8 +25,10 @@ ul {list-style-type:square}
 p {margin-top :0;}
 
 h1 { 
-    font-size:117%
+    font-size:117%;
    text-align:center; 
+    font-weight:normal;
+    font-family:libertine_bold
 }
 
 h2 {
@@ -37,14 +39,14 @@ h2 {
 
 h3 {
     font-weight:normal;
-    border-bottom: 1px solid #333;
-  color: #ff4d4d;
+    font-family:libertine_caps;
+    font-size:100%;
 }
 
 h4 {
   margin:0;
     font-weight:normal;
-  font-family:atk-b;
+  font-family:libertine_italic;
 }
 
 h5 {
@@ -55,9 +57,9 @@ h5 {
 }  
 
 body {
-background: #202020;
-  color:#fff;
-font-family:atk;
+background: #fff;
+  color:#000;
+font-family:libertine;
   line-height: 1.5;
     margin:auto;
     max-width:31rem;
