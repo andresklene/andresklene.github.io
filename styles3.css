@@ -1,0 +1,83 @@
+@font-face { font-family: caslon; src: url('graphics/caslon.otf'); }
+
+@font-face { font-family: libertine; src: url('graphics/LinLibertine_R.ttf'); }
+@font-face { font-family: libertine_italic; src: url('graphics/LinLibertine_RI.ttf'); }
+@font-face { font-family: libertine_caps; src: url('graphics/LinLibertine_aS.ttf'); }
+@font-face { font-family: libertine_bold; src: url('graphics/LinLibertine_RZ.ttf'); }
+
+@font-face { font-family: texttt; src: url('graphics/texttt.ttf'); }
+@font-face { font-family: courier; src: url('graphics/CourierPrime-Regular.ttf'); }
+
+@font-face { font-family: atk; src: url('graphics/AtkinsonHyperlegibleNext-Light.ttf'); }
+@font-face { font-family: atk-i; src: url('graphics/AtkinsonHyperlegibleNext-LightItalic.ttf'); }
+@font-face { font-family: atk-b; src: url('graphics/AtkinsonHyperlegibleNext-Medium.ttf'); }
+
+:root {
+    font-size: clamp(16px,calc(12px + 1vw), 20px);
+  }
+
+::selection {background-color: #dfeefc; color:#000}
+
+ul {list-style-type:square}
+
+.contents {padding-inline:3em}
+
+p {margin-top :0;}
+
+h1 { 
+    font-size:117%
+   text-align:center; 
+}
+
+h2 {
+  font-size:100%;
+  text-align:center;
+  font-weight:normal;
+}
+
+h3 {
+    font-weight:normal;
+    border-bottom: 1px solid #333;
+  color: #ff4d4d;
+}
+
+h4 {
+  margin:0;
+    font-weight:normal;
+  font-family:atk-b;
+}
+
+h5 {
+    margin-top:0;
+    text-align:center; 
+    font-family:texttt;
+    font-weight:normal;
+}  
+
+body {
+background: #202020;
+  color:#fff;
+font-family:atk;
+  line-height: 1.5;
+    margin:auto;
+    max-width:31rem;
+  padding:1rem;
+  
+}
+
+a {text-decoration: none; color:#92a0b1;}
+a:hover {text-decoration: underline;}
+a:active {text-decoration: none;}
+
+summary {
+  list-style: none;           /* removes default arrow in some browsers */
+  cursor: pointer;
+}
+
+summary::-webkit-details-marker {
+  display: none;              /* removes arrow in Chrome/Safari */
+}
+
+summary::marker {
+  display: none;              /* removes arrow in Firefox */
+}
