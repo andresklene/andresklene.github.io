@@ -50,7 +50,7 @@ h5 {
 }  
 
 body {
-background: #ffffdd0;
+background: #fffdd0;
   color:#000;
 font-family:atk;
   line-height: 1.5;
@@ -76,4 +76,5 @@ summary::-webkit-details-marker {
 summary::marker {
   display: none;              /* removes arrow in Firefox */
 }
+
 
