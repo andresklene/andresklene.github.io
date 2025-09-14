@@ -16,24 +16,19 @@
     font-size: clamp(16px,calc(12px + 1vw), 20px);
   }
 
-::selection {background-color: #dfeefc; color:#000}
-
 ul {list-style-type:square}
 
 p {margin-top :0;}   
 
 h1 {
-    font-weight:normal; 
     font-size:250%;
    text-align:center; 
     margin-bottom:0;
-    margin-top:1.5em;
 }
 
 h3 {
-    font-weight:normal;
     border-bottom: 1px solid #333;
-  color: #ff4d4d;
+  font-weight:normal;
 }
 
 h4 {
@@ -45,13 +40,13 @@ h4 {
 h5 {
     margin-top:0;
     text-align:center; 
-    font-family:texttt;
     font-weight:normal;
+  font-size:100%;
 }  
 
 body {
-background: #fffdd0;
-  color:#000;
+background: #ffeac2;
+  color:#5a4d35;
 font-family:atk;
   line-height: 1.5;
     margin:auto;
@@ -60,7 +55,7 @@ font-family:atk;
   
 }
 
-a {text-decoration: none; color:#92a0b1;}
+a {text-decoration: none; color:#ff4d4d;}
 a:hover {text-decoration: underline;}
 a:active {text-decoration: none;}
 
