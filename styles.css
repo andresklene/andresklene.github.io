@@ -25,7 +25,7 @@ h1 {
 }
 
 h3 {
-    border-bottom: 1px solid #5a4d35;
+    border-bottom: 1.5px solid #5a4d35;
   font-weight:normal;
 }
 
@@ -69,6 +69,7 @@ summary::-webkit-details-marker {
 summary::marker {
   display: none;              /* removes arrow in Firefox */
 }
+
 
 
 
