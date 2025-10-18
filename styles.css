@@ -12,6 +12,10 @@
 @font-face { font-family: atk-i; src: url('graphics/AtkinsonHyperlegibleNext-LightItalic.ttf'); }
 @font-face { font-family: atk-b; src: url('graphics/AtkinsonHyperlegibleNext-Medium.ttf'); }
 
+@font-face { font-family: atk; src: url('graphics/Frutiger_Book.ttf'); }
+@font-face { font-family: atk-i; src: url('graphics/AtkinsonHyperlegibleNext-LightItalic.ttf'); }
+@font-face { font-family: atk-b; src: url('graphics/Frutiger_Heavy.ttf'); }
+
 ul {list-style-type:square}
 
 p {margin-top :0;}   
@@ -68,6 +72,7 @@ summary::-webkit-details-marker {
 summary::marker {
   display: none;              /* removes arrow in Firefox */
 }
+
 
 
 
