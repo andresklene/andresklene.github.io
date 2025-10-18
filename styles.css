@@ -20,6 +20,7 @@ h1 {
     font-size:250%;
    text-align:center; 
     margin-bottom:0;
+    font-family:atk-b;
 }
 
 h3 {
@@ -41,8 +42,8 @@ h5 {
 }  
 
 body {
-background: #ffeac2;
-  color:#5a4d35;
+background: #f4f4d2;
+  color:#040909;
 font-family:atk;
   line-height: 1.5;
     margin:auto;
@@ -67,6 +68,7 @@ summary::-webkit-details-marker {
 summary::marker {
   display: none;              /* removes arrow in Firefox */
 }
+
 
 
 
