@@ -15,7 +15,6 @@
 ul {list-style-type:square}
 
 h1 {
-    margin-bottom:0;
     font-family:atk-b;
 }
 
@@ -57,6 +56,7 @@ summary::-webkit-details-marker {
 summary::marker {
   display: none;              /* removes arrow in Firefox */
 }
+
 
 
 
