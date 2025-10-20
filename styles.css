@@ -15,7 +15,8 @@
 @media (min-width: 768px) {
   html {
     transform: scale(1.25);
-    transform-origin: top;
+    transform-origin: top center;
+    width: 80%; /* 1 / 1.25 */
   }
 }
 
@@ -64,6 +65,7 @@ summary::-webkit-details-marker {
 summary::marker {
   display: none;              /* removes arrow in Firefox */
 }
+
 
 
 
