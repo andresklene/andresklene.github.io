@@ -63,7 +63,7 @@ background: #f4f4d2;
 font-family:atk;
   line-height: 1.5;
     margin:auto;
-    max-width:31rem;
+    max-width:31.3rem;
   padding:1.5rem;
   
 }
@@ -84,6 +84,7 @@ summary::-webkit-details-marker {
 summary::marker {
   display: none;              /* removes arrow in Firefox */
 }
+
 
 
 
