@@ -12,32 +12,6 @@
 @font-face { font-family: atk-i; src: url('graphics/AtkinsonHyperlegibleNext-LightItalic.ttf'); }
 @font-face { font-family: atk-b; src: url('graphics/AtkinsonHyperlegibleNext-Medium.ttf'); }
 
- .container {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-  }
-  p {
-    flex:1;
-  }
-  img {
-    margin-left:1em;
-    width: 34%;
-  }
-  @media (max-width: 768px) {
-    .container {
-      flex-direction: column;
-    }
-    p {
-      order: 2;
-    }
-    img {
-      order: 1;
-      width: 100%;
-      margin-bottom: 1em;
-      margin-left:0;
-    }
-  }
 
 ul {list-style-type:square}
 
