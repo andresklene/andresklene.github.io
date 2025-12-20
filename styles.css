@@ -44,11 +44,12 @@ ul {list-style-type:square}
 
 h1 {
     font-family:atk-b;
+  font-weight: normal;
 }
 
 h3 {
-    border-bottom: 1.5px solid #080808;
   font-family: atk-b;
+  font-weight: normal;
 }
 
 h4 {
@@ -60,11 +61,11 @@ h4 {
 body {
 background: #f4f4d2;
   color:#080808;
-font-family:atk;
+font-family:caslon;
   line-height: 1.5;
     margin:auto;
-    max-width:31.3rem;
-  padding:1.5rem;
+    max-width:45.5rem;
+  padding:1.5em;
   
 }
 
