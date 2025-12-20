@@ -30,7 +30,6 @@
     }
     p {
       order: 2;
-      margin: 0;
     }
     img {
       order: 1;
@@ -50,6 +49,7 @@ h1 {
 h3 {
   font-family: atk-b;
   font-weight: normal;
+  margin-bottom:0;
 }
 
 h4 {
@@ -59,19 +59,16 @@ h4 {
 } 
 
 body {
-background: #f4f4d2;
   color:#080808;
 font-family:caslon;
   line-height: 1.5;
     margin:auto;
-    max-width:45.5rem;
+    max-width:43.75rem;
   padding:1.5em;
   
 }
 
-a {text-decoration: none; color:#92a0b1;}
-a:hover {text-decoration: underline;}
-a:active {text-decoration: none;}
+details {margin:0; padding:0}
 
 summary {
   list-style: none;           /* removes default arrow in some browsers */
@@ -85,17 +82,3 @@ summary::-webkit-details-marker {
 summary::marker {
   display: none;              /* removes arrow in Firefox */
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
