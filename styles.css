@@ -12,6 +12,9 @@
 @font-face { font-family: atk-i; src: url('graphics/AtkinsonHyperlegibleNext-LightItalic.ttf'); }
 @font-face { font-family: atk-b; src: url('graphics/AtkinsonHyperlegibleNext-Medium.ttf'); }
 
+:root {
+    font-size: 1.5vw;
+  }
 
 ul {list-style-type:square}
 
@@ -61,5 +64,6 @@ summary::-webkit-details-marker {
 summary::marker {
   display: none;              /* removes arrow in Firefox */
 }
+
 
 
