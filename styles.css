@@ -59,7 +59,8 @@ h4 {
 } 
 
 body {
-  color:#080808;
+ background: #202020
+  color:#ffffff;
 font-family:caslon;
   line-height: 1.5;
     margin:auto;
@@ -82,3 +83,4 @@ summary::-webkit-details-marker {
 summary::marker {
   display: none;              /* removes arrow in Firefox */
 }
+
