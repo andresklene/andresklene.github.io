@@ -59,7 +59,7 @@ h4 {
 } 
 
 body {
- background: #202020
+ background: #202020;
   color:#ffffff;
 font-family:caslon;
   line-height: 1.5;
@@ -70,6 +70,10 @@ font-family:caslon;
 }
 
 details {margin:0; padding:0}
+
+a {text-decoration: none; color:#92a0b1;}
+a:hover {text-decoration: underline;}
+a:active {text-decoration: none;}
 
 summary {
   list-style: none;           /* removes default arrow in some browsers */
@@ -83,4 +87,5 @@ summary::-webkit-details-marker {
 summary::marker {
   display: none;              /* removes arrow in Firefox */
 }
+
 
