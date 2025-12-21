@@ -16,25 +16,6 @@
     font-size: 1.1em;
   }
 
-ul {list-style-type:square}
-
-h1 {
-    font-family:atk-b;
-  font-weight: normal;
-}
-
-h2 {
-  font-family: atk-b;
-  font-weight: normal;
-  margin-bottom:0;
-}
-
-h4 {
-  margin:0;
-    font-weight:normal;
-  font-family:atk-i;
-} 
-
 body {
  background: #202020;
   color:#ffffff;
@@ -43,10 +24,20 @@ font-family:caslon;
     margin:auto;
     max-width:43.75rem;
   padding:1.5em;
-  
 }
 
-details {margin:0; padding:0}
+ul {list-style-type:square}
+
+:heading {
+    font-family:atk-b;
+  font-weight: normal;
+}
+
+h3 {
+  font-family: atk-b;
+  font-weight: normal;
+  margin-bottom:0;
+}
 
 a {text-decoration: none; color:#92a0b1;}
 a:hover {text-decoration: underline;}
@@ -64,6 +55,7 @@ summary::-webkit-details-marker {
 summary::marker {
   display: none;              /* removes arrow in Firefox */
 }
+
 
 
 
