@@ -13,7 +13,7 @@
 @font-face { font-family: atk-b; src: url('graphics/AtkinsonHyperlegibleNext-Medium.ttf'); }
 
 :root {
-    font-size: 1.4em;
+    font-size: 1.115em;
   }
 
 body {
@@ -53,6 +53,7 @@ summary::-webkit-details-marker {
 summary::marker {
   display: none;              /* removes arrow in Firefox */
 }
+
 
 
 
