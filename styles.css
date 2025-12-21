@@ -28,7 +28,7 @@ font-family:caslon;
 
 ul {list-style-type:square}
 
-:heading {
+h1,h3 {
     font-family:atk-b;
   font-weight: normal;
 }
@@ -53,6 +53,7 @@ summary::-webkit-details-marker {
 summary::marker {
   display: none;              /* removes arrow in Firefox */
 }
+
 
 
 
