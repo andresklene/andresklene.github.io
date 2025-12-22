@@ -21,7 +21,6 @@ body {
  background: #202020;
   color:#ffffff;
 font-family:atk;
-  line-height: 1.5;
     margin:auto;
     max-width:34em;
   padding:1.5em;
@@ -54,6 +53,7 @@ summary::-webkit-details-marker {
 summary::marker {
   display: none;              /* removes arrow in Firefox */
 }
+
 
 
 
