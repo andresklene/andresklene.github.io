@@ -17,14 +17,14 @@ body {
 font-family:atk;
     margin:auto;
     line-height:1.5;
-    max-width:46em;
+    max-width:23em;
   padding:1em;
 }
 
 ul {list-style-type:square}
 
 h1,h2,h3 {
-    font-family:caslon;
+    font-family:atk;
   font-weight: normal;
 margin-bottom:0;
 }
@@ -45,6 +45,7 @@ summary::-webkit-details-marker {
 summary::marker {
   display: none;              /* removes arrow in Firefox */
 }
+
 
 
 
