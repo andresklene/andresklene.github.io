@@ -18,7 +18,7 @@ font-family:atk;
     margin:auto;
     line-height:1.5;
     max-width:32em;
-  padding:1em;
+  padding:1.5em;
 }
 
 ul {list-style-type:square}
@@ -45,6 +45,7 @@ summary::-webkit-details-marker {
 summary::marker {
   display: none;              /* removes arrow in Firefox */
 }
+
 
 
 
