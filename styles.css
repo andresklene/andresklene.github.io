@@ -23,12 +23,19 @@ font-family:atk;
 
 ul {list-style-type:square}
 
-h1,h2,h3 {
+h1,h2 {
     font-family:libertine;
   font-weight: normal;
 margin-bottom:0;
   border-bottom: #a2a9b1 solid 1px
 }
+
+h3 {
+    font-family:atk-b;
+  font-weight: normal;
+margin:0;
+}
+
 
 a {text-decoration: none; color:#3366CC;}
 a:hover {text-decoration: underline;}
@@ -46,3 +53,4 @@ summary::-webkit-details-marker {
 summary::marker {
   display: none;              /* removes arrow in Firefox */
 }
+
