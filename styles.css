@@ -17,16 +17,17 @@ body {
 font-family:atk;
     margin:auto;
     line-height:1.5;
-    max-width:32em;
-  padding:1.5em;
+    max-width:58em;
+  padding:1em;
 }
 
 ul {list-style-type:square}
 
 h1,h2,h3 {
-    font-family:atk;
+    font-family:libertine;
   font-weight: normal;
 margin-bottom:0;
+  border-bottom: #a2a9b1 solid 1px
 }
 
 a {text-decoration: none; color:#3366CC;}
@@ -45,9 +46,3 @@ summary::-webkit-details-marker {
 summary::marker {
   display: none;              /* removes arrow in Firefox */
 }
-
-
-
-
-
-
