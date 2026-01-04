@@ -13,8 +13,8 @@
 @font-face { font-family: atk-i; src: url('graphics/AtkinsonHyperlegibleNext-LightItalic.ttf'); }
 @font-face { font-family: atk-b; src: url('graphics/AtkinsonHyperlegibleNext-Medium.ttf'); }
 
-@font-face {font-family: fn; src: url('graphics/FB_Book.ttf')}
-@font-face {font-family: fn-b; src: url('graphics/FB_Bold.ttf')}
+@font-face {font-family: fn; src: url('graphics/Frutiger_Book.ttf')}
+@font-face {font-family: fn-b; src: url('graphics/Frutiger_Bold.ttf')}
 
 body {
 font-family:fn;
@@ -56,6 +56,7 @@ summary::-webkit-details-marker {
 summary::marker {
   display: none;              /* removes arrow in Firefox */
 }
+
 
 
 
