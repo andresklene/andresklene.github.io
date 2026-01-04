@@ -31,8 +31,11 @@ margin-bottom:0;
 h3 {
     font-family:atk-b;
   font-weight: normal;
-margin:0;
+margin-bottom:0;
+    font-size:100%;
 }
+
+p.vs {border-bottom: }
 
 
 a {text-decoration: none; color:#3366CC;}
@@ -51,5 +54,6 @@ summary::-webkit-details-marker {
 summary::marker {
   display: none;              /* removes arrow in Firefox */
 }
+
 
 
