@@ -24,14 +24,15 @@ font-family:atk;
 h1,h2 {
     font-family:libertine;
   font-weight: normal;
-margin-bottom:0;
+    margin-bottom:0;
   border-bottom: #a2a9b1 solid 1px
 }
 
 h3 {
     font-family:atk-b;
   font-weight: normal;
-margin:0;
+    margin-bottom:0;
+    font-size:100%
 }
 
 p.vs {text-align:right; border-bottom: #c8ccd1 solid 1px; margin:0; padding:0.25em; font-size:87.5%}
@@ -52,3 +53,4 @@ summary::-webkit-details-marker {
 summary::marker {
   display: none;              /* removes arrow in Firefox */
 }
+
