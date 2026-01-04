@@ -24,6 +24,11 @@ font-family:sans-serif;
   padding:1em;
 }
 
+.dark-mode {
+  background-color: #101418;
+  color: #eaecf0;
+}
+
 h1,h2 {
     font-family:libertine;
   font-weight: normal;
@@ -54,6 +59,7 @@ summary::-webkit-details-marker {
 summary::marker {
   display: none;              /* removes arrow in Firefox */
 }
+
 
 
 
