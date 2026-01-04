@@ -17,10 +17,10 @@
 @font-face {font-family: fn-b; src: url('graphics/Frutiger_Bold.ttf')}
 
 body {
-font-family:fn;
+font-family:sans-serif;
     margin:auto;
     line-height:1.5;
-    max-width:49em;
+    max-width:48em;
   padding:1em;
 }
 
@@ -32,8 +32,6 @@ h1,h2 {
 }
 
 h3 {
-    font-family:fn-b;
-  font-weight: normal;
     margin-bottom:0;
     font-size:100%
 }
