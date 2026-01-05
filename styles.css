@@ -33,8 +33,26 @@
   --accent-color: purple;
 }
 
+#theme-switch{
+  height:50px;
+  width:50px;
+  padding:0;
+  border-radius:50%;
+  background-color: var(--base-variant);
+  display:flex;
+  jusitfy-content:center;
+  align-items:center;
+  position:fixed;
+  top:20px;
+  right:20px;
+}
+#theme-switch svg{
+  fill: var(--primary-color)
+}
+
 body {
 font-family:sans-serif;
+  background-color:var(--base-color)
     margin:auto;
     line-height:1.5;
     max-width:48em;
@@ -71,6 +89,7 @@ summary::-webkit-details-marker {
 summary::marker {
   display: none;              /* removes arrow in Firefox */
 }
+
 
 
 
