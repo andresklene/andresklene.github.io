@@ -17,17 +17,17 @@
 @font-face {font-family: fn-b; src: url('graphics/Frutiger_Bold.ttf')}
 
 :root{
-  --base-color: red;
+  --base-color: white;
   --base-variant:blue;
-  --text-color:red;
+  --text-color:#101418;
   --secondary-text: blue;
   --primary-color: green;
   --accent-color: purple;
 }
 .darkmode{
-  --base-color: red;
+  --base-color: #101418;
   --base-variant:blue;
-  --text-color:red;
+  --text-color:white;
   --secondary-text: blue;
   --primary-color: green;
   --accent-color: purple;
@@ -52,7 +52,8 @@
 
 body {
 font-family:sans-serif;
-  background-color:var(--base-color)
+  background-color:var(--base-color);
+  color:var(--text-color);
     margin:auto;
     line-height:1.5;
     max-width:48em;
