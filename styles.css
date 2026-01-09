@@ -17,78 +17,48 @@
 @font-face {font-family: fn-b; src: url('graphics/Frutiger_Bold.ttf')}
 
 :root{
-  --base-color: white;
-  --base-variant:blue;
-  --text-color:#101418;
-  --secondary-text: blue;
-  --primary-color: green;
-  --accent-color: purple;
-}
-.darkmode{
-  --base-color: #101418;
-  --base-variant:blue;
-  --text-color:white;
-  --secondary-text: blue;
-  --primary-color: green;
-  --accent-color: purple;
-}
-
-#theme-switch{
-  height:50px;
-  width:50px;
-  padding:0;
-  border-radius:50%;
-  background-color: var(--base-variant);
-  display:flex;
-  jusitfy-content:center;
-  align-items:center;
-  position:fixed;
-  top:20px;
-  right:20px;
-}
-#theme-switch svg{
-  fill: var(--primary-color)
+  --background-col: #101418;
+  --text-col:white;
+  --link-col: #88a3e8;
+  --hover-col: #a6bbf5;
+  --active-col: #b6d4fb;
+  --line1: #72777d;
+  --line2: #4d5256;
 }
 
 body {
-font-family:sans-serif;
-  background-color:var(--base-color);
-  color:var(--text-color);
-    margin:auto;
-    line-height:1.5;
-    max-width:48em;
+  font-family:sans-serif;
+  line-height:1.6;
+  
+  background-color:var(--background-col);
+  color:var(--text-col);
+  
+  margin:auto;
+  max-width:48em;
   padding:1em;
 }
 
 h1,h2 {
-    font-family:libertine;
+  font-family:serif;
   font-weight: normal;
-    margin-bottom:0;
-  border-bottom: #a2a9b1 solid 1px
+  
+  margin-bottom:0;
+  border-bottom: var(--line1) solid 1px
 }
 
 h3 {
-    margin-bottom:0;
-    font-size:100%
+  margin-bottom:0;
 }
 
 p.vs {text-align:right; border-bottom: #c8ccd1 solid 1px; margin:0; padding:0.5em; font-size:87.5%}
 
-a {text-decoration: none; color:#3366CC;}
-a:hover {text-decoration: underline;}
-a:active {color:#BF3C2D;}
+a {text-decoration: none; color:var(--link-col);}
+a:hover {text-decoration: underline; color: var(--hover-col)}
+a:active {color:var(--active-col);}
 
 summary {
   list-style: none;           /* removes default arrow in some browsers */
   cursor: pointer;
-}
-
-summary::-webkit-details-marker {
-  display: none;              /* removes arrow in Chrome/Safari */
-}
-
-summary::marker {
-  display: none;              /* removes arrow in Firefox */
 }
 
 
