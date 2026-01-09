@@ -22,6 +22,9 @@
   --link-col: #88a3e8;
   --hover-col: #a6bbf5;
   --active-col: #b6d4fb;
+  --x--link-col: #fd7865;
+  --x-hover-col: #fea898;
+  --x-active-col: #ffc8bd;
   --line1: #72777d;
   --line2: #54595d;
 }
@@ -64,7 +67,12 @@ a {text-decoration: none; color: var(--link-col);}
 a:hover {text-decoration: underline; color: var(--hover-col)}
 a:active {color:var(--active-col);}
 
+a.x {text-decoration: none; color: var(--x-link-col);}
+a.x:hover {text-decoration: underline; color: var(--x-hover-col)}
+a.x:active {color:var(--x-active-col);}
+
 summary {
   list-style: none;           /* removes default arrow in some browsers */
   cursor: pointer;
 }
+
