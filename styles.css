@@ -22,7 +22,7 @@
   --link-col: #88a3e8;
   --hover-col: #a6bbf5;
   --active-col: #b6d4fb;
-  --x--link-col: #fd7865;
+  --x-link-col: #fd7865;
   --x-hover-col: #fea898;
   --x-active-col: #ffc8bd;
   --line1: #72777d;
@@ -75,4 +75,5 @@ summary {
   list-style: none;           /* removes default arrow in some browsers */
   cursor: pointer;
 }
+
 
