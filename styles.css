@@ -23,7 +23,7 @@
   --hover-col: #a6bbf5;
   --active-col: #b6d4fb;
   --line1: #72777d;
-  --line2: #4d5256;
+  --line2: #54595d;
 }
 
 body {
@@ -41,18 +41,26 @@ body {
 h1,h2 {
   font-family:serif;
   font-weight: normal;
+
+  border-bottom: var(--line1) solid 1px;
   
   margin-bottom:0;
-  border-bottom: var(--line1) solid 1px
 }
 
 h3 {
   margin-bottom:0;
 }
 
-p.vs {text-align:right; border-bottom: #c8ccd1 solid 1px; margin:0; padding:0.5em; font-size:87.5%}
+p.vs {
+  font-size:87.5%;
+  text-align:right;
 
-a {text-decoration: none; color:var(--link-col);}
+  border-bottom: var(--line2) solid 1px; 
+
+  margin:0; 
+  padding:0.5em;}
+
+a {text-decoration: none; color: var(--link-col);}
 a:hover {text-decoration: underline; color: var(--hover-col)}
 a:active {color:var(--active-col);}
 
@@ -60,9 +68,3 @@ summary {
   list-style: none;           /* removes default arrow in some browsers */
   cursor: pointer;
 }
-
-
-
-
-
-
