@@ -16,6 +16,19 @@
 @font-face {font-family: fn; src: url('graphics/Frutiger_Book.ttf')}
 @font-face {font-family: fn-b; src: url('graphics/Frutiger_Bold.ttf')}
 
+.custom {
+  list-style: none;
+  padding-left: 0;
+}
+
+.custom li::before {
+  content: attr(data-bullet);
+  display: inline-block;
+  width: 4ch;          /* controls alignment */
+  text-align: right;   /* bullet alignment */
+  padding-right: .5ch;
+}
+
 :root{
   --background-col: #101418;
   --text-col:white;
@@ -75,5 +88,6 @@ summary {
   list-style: none;           /* removes default arrow in some browsers */
   cursor: pointer;
 }
+
 
 
