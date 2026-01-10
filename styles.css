@@ -28,7 +28,7 @@ ul {margin-bottom:1em}
   display: inline-block;
   width: 3.7ch;          /* controls alignment */
   text-align: right;   /* bullet alignment */
-  padding-right: 0.85ch;
+  padding-right: 0.8ch;
 }
 
 :root{
@@ -90,4 +90,5 @@ summary {
   list-style: none;           /* removes default arrow in some browsers */
   cursor: pointer;
 }
+
 
