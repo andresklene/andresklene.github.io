@@ -26,7 +26,7 @@
   display: inline-block;
   width: 3.65ch;          /* controls alignment */
   text-align: right;   /* bullet alignment */
-  padding-right: 0.8ch;
+  padding-right: 0.365ch;
 }
 
 :root{
