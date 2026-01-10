@@ -16,6 +16,8 @@
 @font-face {font-family: fn; src: url('graphics/Frutiger_Book.ttf')}
 @font-face {font-family: fn-b; src: url('graphics/Frutiger_Bold.ttf')}
 
+ul {margin-bottom:1em}
+
 .custom {
   list-style: none;
   padding-left: 0;
@@ -88,3 +90,4 @@ summary {
   list-style: none;           /* removes default arrow in some browsers */
   cursor: pointer;
 }
+
