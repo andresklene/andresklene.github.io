@@ -24,9 +24,9 @@
 .custom li::before {
   content: attr(data-bullet);
   display: inline-block;
-  width: 3.65ch;          /* controls alignment */
+  width: 3.7ch;          /* controls alignment */
   text-align: right;   /* bullet alignment */
-  padding-right: 0.365ch;
+  padding-right: 0.85ch;
 }
 
 :root{
@@ -88,6 +88,3 @@ summary {
   list-style: none;           /* removes default arrow in some browsers */
   cursor: pointer;
 }
-
-
-
