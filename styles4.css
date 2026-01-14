@@ -1,0 +1,75 @@
+ul {margin-bottom:1em}
+
+.custom {
+  list-style: none;
+  padding-left: 0;
+}
+
+.custom li::before {
+  content: attr(data-bullet);
+  display: inline-block;
+  width: 3.7ch;          /* controls alignment */
+  text-align: right;   /* bullet alignment */
+  padding-right: 0.85ch;
+}
+
+:root{
+  --background-col: #313d48;
+  --text-col:#a89b94;
+  --link-col: #7b6569;
+  --hover-col: #7b6569;
+  --active-col: #7b6569;
+  --x-link-col: #a02c49;
+  --x-hover-col: #a02c49;
+  --x-active-col: #a02c49;
+  --line1: #72777d;
+  --line2: #54595d;
+}
+
+body {
+  font-family:sans-serif;
+  line-height:1.6;
+  
+  background-color:var(--background-col);
+  color:var(--text-col);
+  
+  margin:auto;
+  max-width:48em;
+  padding:1em;
+}
+
+h1,h2 {
+  font-family:serif;
+  font-weight: normal;
+
+  border-bottom: var(--line1) solid 1px;
+  
+  margin-bottom:0;
+}
+
+h3 {
+  margin-bottom:0;
+}
+
+p.vs {
+  font-size:87.5%;
+  text-align:right;
+
+  border-bottom: var(--line2) solid 1px; 
+
+  margin:0; 
+  padding:0.5em;
+}
+
+a {text-decoration: none; color: var(--link-col);}
+a:hover {text-decoration: underline; color: var(--hover-col)}
+a:active {color:var(--active-col);}
+
+a.x {text-decoration: none; color: var(--x-link-col);}
+a.x:hover {text-decoration: underline; color: var(--x-hover-col)}
+a.x:active {color:var(--x-active-col);}
+
+summary {
+  list-style: none;           /* removes default arrow in some browsers */
+  cursor: pointer;
+}
