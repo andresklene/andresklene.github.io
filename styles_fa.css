@@ -1,0 +1,57 @@
+:root{
+  --background-col: hsl(0 0 13);
+  --text-col:white;
+  --link-col: hsl(213 17 63);
+  --x-link-col: hsl(0 100 65);
+  --line-col: hsl(0 0 20);
+}
+
+body {
+  font-family:sans-serif;
+  line-height:1.6;
+  
+  background-color:var(--background-col);
+  color:var(--text-col);
+  
+  margin:auto;
+  max-width:48em;
+  padding:1em;
+}
+
+h1,h2 {
+  font-family:serif;
+  font-weight: normal;
+
+  border-bottom: var(--line-col) solid 1px;
+  
+  margin-bottom:0;
+}
+
+h3 {
+  margin-bottom:0;
+}
+
+a {text-decoration: none; color: var(--link-col);}
+a:hover {text-decoration: underline}
+a.x {text-decoration: none; color: var(--x-link-col);}
+a.x:hover {text-decoration: underline;}
+
+ul {margin-bottom:1em}
+
+.custom {
+  list-style: none;
+  padding-left: 0;
+}
+
+.custom li::before {
+  content: attr(data-bullet);
+  display: inline-block;
+  width: 3.7ch;          /* controls alignment */
+  text-align: right;   /* bullet alignment */
+  padding-right: 0.85ch;
+}
+
+summary {
+  list-style: none;           /* removes default arrow in some browsers */
+  cursor: zoom-in;
+}
