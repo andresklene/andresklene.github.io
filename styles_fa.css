@@ -53,5 +53,5 @@ ul {margin-bottom:1em}
 
 summary {
   list-style: none;           /* removes default arrow in some browsers */
-  cursor: zoom-in;
+  cursor: pointer;
 }
