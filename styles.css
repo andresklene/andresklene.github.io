@@ -1,52 +1,14 @@
-@font-face { font-family: caslon; src: url('graphics/caslon.otf'); }
-@font-face { font-family: caslon-i; src: url('graphics/AtkinsonHyperlegibleNext-LightItalic.ttf'); }
-
-@font-face { font-family: libertine; src: url('graphics/LinLibertine_R.ttf'); }
-@font-face { font-family: libertine_italic; src: url('graphics/LinLibertine_RI.ttf'); }
-@font-face { font-family: libertine_caps; src: url('graphics/LinLibertine_aS.ttf'); }
-@font-face { font-family: libertine_bold; src: url('graphics/LinLibertine_RZ.ttf'); }
-
-@font-face { font-family: texttt; src: url('graphics/texttt.ttf'); }
-@font-face { font-family: courier; src: url('graphics/CourierPrime-Regular.ttf'); }
-
-@font-face { font-family: atk; src: url('graphics/AtkinsonHyperlegibleNext-Light.ttf'); }
-@font-face { font-family: atk-i; src: url('graphics/AtkinsonHyperlegibleNext-LightItalic.ttf'); }
-@font-face { font-family: atk-b; src: url('graphics/AtkinsonHyperlegibleNext-Medium.ttf'); }
-
-@font-face {font-family: fn; src: url('graphics/Frutiger_Book.ttf')}
-@font-face {font-family: fn-b; src: url('graphics/Frutiger_Bold.ttf')}
-
-ul {margin-bottom:1em}
-
-.custom {
-  list-style: none;
-  padding-left: 0;
-}
-
-.custom li::before {
-  content: attr(data-bullet);
-  display: inline-block;
-  width: 3.7ch;          /* controls alignment */
-  text-align: right;   /* bullet alignment */
-  padding-right: 0.85ch;
-}
-
 :root{
-  --background-col: #101418;
-  --text-col:white;
-  --link-col: #88a3e8;
-  --hover-col: #a6bbf5;
-  --active-col: #b6d4fb;
-  --x-link-col: #fd7865;
-  --x-hover-col: #fea898;
-  --x-active-col: #ffc8bd;
-  --line1: #72777d;
-  --line2: #54595d;
+  --background-col: beige;
+  --text-col:black;
+  --link-col: royalblue;
+  --x-link-col: crimson;
+  --line-col: grey;
 }
 
 body {
   font-family:sans-serif;
-  line-height:1.6;
+  line-height:1.5;
   
   background-color:var(--background-col);
   color:var(--text-col);
@@ -60,35 +22,24 @@ h1,h2 {
   font-family:serif;
   font-weight: normal;
 
-  border-bottom: var(--line1) solid 1px;
+  border-bottom: var(--line-col) solid 1px;
   
   margin-bottom:0;
 }
 
 h3 {
   margin-bottom:0;
+  font-size:100%;
 }
 
-p.vs {
-  font-size:87.5%;
-  text-align:right;
-
-  border-bottom: var(--line2) solid 1px; 
-
-  margin:0; 
-  padding:0.5em;}
-
 a {text-decoration: none; color: var(--link-col);}
-a:hover {text-decoration: underline; color: var(--hover-col)}
-a:active {color:var(--active-col);}
+a:hover {text-decoration: underline}
+a:active {color:black;}
 
-a.x {text-decoration: none; color: var(--x-link-col);}
-a.x:hover {text-decoration: underline; color: var(--x-hover-col)}
-a.x:active {color:var(--x-active-col);}
+a.x {color: var(--x-link-col);}
+a.x { cursor: pointer;}
 
 summary {
   list-style: none;           /* removes default arrow in some browsers */
   cursor: pointer;
 }
-
-
