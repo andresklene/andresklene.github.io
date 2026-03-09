@@ -3,6 +3,11 @@
   --text-col:white;
 }
 
+::selection {
+  background: white;
+  color: var(--background-col)
+}
+
 ul {margin-bottom:1em;}
 
 .custom {
