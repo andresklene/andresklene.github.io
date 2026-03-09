@@ -24,7 +24,7 @@ ul {margin-bottom:1em}
 }
 
 body {
-  font-family:dos;
+  font-family:sans-serif;
   line-height:1.5;
   
   background-color:var(--background-col);
@@ -60,4 +60,5 @@ summary {
   list-style: none;           /* removes default arrow in some browsers */
   cursor: pointer;
 }
+
 
