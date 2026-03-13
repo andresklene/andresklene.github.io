@@ -25,28 +25,26 @@ src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLor
 
 <h1>What is higher geometry?</h1>
 <p>
-This exposition is nothing if not a work in progress; if you manage to find this webpage, don't tell your friends.
+This exposition is nothing if not a work in progress; if you manage to find this webpage, don't tell your friends! 
 </p>
 
-<h2>Higher geometry = geometry $+$ homotopy theory</h2>
+<h2>Homotopy theory $+$ geometry</h2>
+<h3>Homotopy theory</h3>
 <p>
-Once upon a time (the 1930s) a branch of topology was born; it was called homotopy theory. Topologists forget the geometry of an object and remember its underlying topological space, aka homeomorphism type; in the same way, homotopy theorists forget the topological space and remember only its underlying homotopy type. Synonyms of 'homotopy type' include '$\infty$-groupoids', 'spaces' and more recently 'anima,' since "the functor from topological spaces to their homotopy
-category extracts something like the soul of a space: it only remembers data
-independent of any worldly representation in terms of physical points." Extracting the soul of a space seems like a very violent thing to do, but in fact many basic algebraic-topological invariants (such as the Euler characteristic, homotopy groups, homology and cohomology) only see homotopy-theoretic information.
-</p>
-<p>
-Time has passed, and a flipped perspective has emerged, whereby anima themselves are the objects of interest, and they are merely modelled, or presented, by topological spaces. Homotopy theory is really the study of anima, and it has even been suggested that the fact that homotopy theory started via algebraic topology is something of a historical accident. (I can't find my source at the time of writing.)
-</p>
-<p>
-Then in the 50s,  mathematics saw a conceptual unification of many ad hoc ideas in algebra, which came to be called the 'homological revolution'. The vague idea is that, when studying a complicated algebraic structure, it is productive to replace (or "resolve") it by a sequence of simpler objects. Since the turn of the 21st century, the homological revolution has seen a second wave, the <i>homotopical</i> revolution, in which the homological framework has been extended to non-linear settings, such as geometry. 
-</p>
+Once upon a time (the 1930s) a branch of topology was born, called homotopy theory. Topologists forget the geometry of an object and only remember its underlying topological space. In the same way, homotopy theorists forget the topological space and remember only its underlying anima, or homotopy type. The word 'anima' comes from the idea that "the functor from topological spaces to their homotopy category extracts something like the soul of a space: it only remembers data
+independent of any worldly representation in terms of physical points."</p>
 
 <p>
-(I should mention Grothendieck and perhaps Lurie)
+Time has passed, and a flipped perspective has emerged, whereby anima themselves are the objects of interest, which are merely modelled, or presented, by topological spaces. Homotopy theory is really the study of anima, and it has even been suggested that its origins in algebraic topology are something of a historical accident. (I can't find my source at the time of writing.)
+</p>
+
+<h3>The homotopical revolution</h3>
+<p>
+In the 1950s, mathematics saw a conceptual unification of many ad hoc ideas in algebra, which came to be called the homological revolution. The vague idea, which homological algebra formalises, is the replacement of a complicated algebraic structure by a sequence of simpler structures. Since the turn of the 21st century, the homological revolution has seen a second wave, the <i>homotopical</i> revolution, in which the homological framework has been extended to other areas, such as geometry.
 </p>
 
 <p>
-Higher geometry is the synthesis of geometry and homotopy theory. Spaces in higher geometry are called stacks. All old smooth spaces are stacks, but there are new spaces which feel a little weird: Rather than have a set of points, they have an <i>anima</i> of points. 
+Higher geometry is the synthesis of geometry and homotopy theory. Spaces in higher geometry are called stacks. All old smooth spaces are stacks, but there are new spaces which feel a little weird: Rather than have a set of points, they have an <i>anima</i> of points.
 </p>
 
 <h2>What is a stack, really?</h2>
@@ -54,18 +52,28 @@ Higher geometry is the synthesis of geometry and homotopy theory. Spaces in high
 <p>It may be easier to start with a simpler question: What is a principal $\mathrm{U}(1)$-bundle on a manifold $M$? 
 	There are two ways of thinking about this concept:
 <ul>
-<li>Heuristically, we can think of a $\mathrm{U}(1)$-bundle as a smooth assignment of a $\mathrm{U}(1)$-torsor $P_x$ to each point $x \in M$. We can imagine this as something like a smooth map
+<li>Heuristically, we can think of a $G$-bundle as a smooth assignment of a $G$-torsor $P_x$ to each point $x \in M$. We can imagine this as something like a smooth map
 		\begin{align*} T_{(-)} \colon M &\to \mathrm{Tors} \\ x &\mapsto T_x, \end{align*}
-		where $\mathrm{Tors}$ is some smooth collection of $\mathrm{U(1)}-torsors. But this is just intuition.
+		where $\mathrm{Tors}$ is some smooth collection of $G$-torsors. But this is just intuition.
 </li> 
-<li>Formally, a principal $\mathrm{U}(1)$-bundle is a big space $P$ together with a projection $\pi \colon P \to M$ 
-	such that each fibre $\pi^{-1}(x)$ is a $\mathrm{U}(1)$, which is locally trivial...</li>
+<li>Formally, a principal $G$-bundle is a big space $P$ together with a projection $\pi \colon P \to M$ 
+	such that each fibre $\pi^{-1}(x)$ is a $G$-torsor, which is locally trivial...</li>
 </ul>
 To me, the point of higher geometry is to legitimise the first perspective. 
 If you're willing to sit through the formalisation of this in terms of category theory and so on, then at the end, 
-	there is a geometric object called the "stack of $\mathrm{U}(1)$-torsors", which is denoted $\mathbf{B} \mathrm{U}(1)$. 
-	Then a principal $\mathrm{U}(1)$-bundle on $M$ is really the same thing as a smooth map $M \to \mathbf{B} \mathrm{U}(1)$.
-	
+	there is a geometric object called the "stack of $G$-torsors", which is denoted $\mathbf{B} G$. 
+	Then a principal $G$-bundle on $M$ is really the same thing as a smooth map $M \to \mathbf{B} G$.
+</p>
+<h3>Higher groups</h3>
+<p>
+...
+</p>
+
+<h3>Gauge theories as sigma-models</h3>
+<p>
+One nice consequence of the classifying stack-perspective is that the field configurations in $G$-gauge theory—connections on principal bundles—are maps into $\mathbf{B}_\nabla G$. In this way, gauge theories can be viewed as sigma-models, notwithstanding the fact (which I heard from a physicist on the street) that, at least in certain circles, the term 'sigma-model' is usually reserved for 
+</p>
+
 </body>
 
 </html>
