@@ -24,25 +24,28 @@ src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLor
 <link rel="icon" type="image/x-icon" href="graphics/granada.png">
 
 <h2>What is higher geometry?</h2>
-	
-<p>Higher geometry is about 
+Here are some words about the big ideas of higher geometry. I will focus on higher <i>differential</i> geometry, because this is my field of research.
 
-What is a vector bundle on a manifold $M$? There are two ways of thinking about it:
+<h3>Higher geometry = geometry $+$ homotopy theory</h3>
+<p>
+Recently---over the last 20 years or so---pure mathematics has seen a "homotopical revolution," which has injected ideas from homotopy theory into many 
+</p>
+
+<h3>What is a stack, anyway?</h3>
+
+<p>It may be easier to start with a simpler question: What is a principal $\mathrm{U}(1)$-bundle on a manifold $M$? There are two ways of thinking about this concept:
 <ul>
-<li>We can think of it as an assignment of a vector space $V_x$ to each point $x \in M$. 
-	Heuristically, you can imagine that a vector bundle is a smooth map
-		$$ V \colon M \to \mathrm{Vect} \colon x \mapsto V_x. $$
-		where $Vect$ is some "category of vector spaces". But this is just intuition.
+<li>Heuristically, we can think of it as a smooth assignment of a $\mathrm{U}(1)$-torsor $P_x$ to each point $x \in M$. We can imagine that a vector bundle is a smooth map
+		$$ T_{(-)} \colon M \to \mathrm{Tors} \colon x \mapsto T_x. $$
+		where $\mathrm{Tors}$ is some "category of vector spaces". But this is just intuition;
 </li> 
-<li>Formally, a vector bundle is a big space $E$ together with a projection $\pi \colon E \to M$ 
-	such that each fibre $\pi^{-1}(x)$ is a vector space, which is locally trivial...</li>
+<li>Formally, a principal $\mathrm{U}(1)$-bundle is a big space $P$ together with a projection $\pi \colon P \to M$ 
+	such that each fibre $\pi^{-1}(x)$ is a $\mathrm{U}(1)$, which is locally trivial...</li>
 </ul>
-	To me, the point of stacks is to legitimise the first perspective. 
-	If you're willing to sit through the formalisation of this in terms of category theory and so on, then at the end, 
-	there is a ``thing'' which deserves to be thought of as a geometric object, called the stack of vector spaces. 
-	We use the same notation, $\Vect$ for both the category of vector spaces and the stack of vector spaces. 
-	Then a vector bundle over a manifold $M$ is really the same thing as a smooth map $M \to \Vect$. 
-	
+To me, the point of higher geometry is to legitimise the first perspective. 
+If you're willing to sit through the formalisation of this in terms of category theory and so on, then at the end, 
+	there is a geometric object called the "stack of $\mathrm{U}(1)$-torsors", which is denoted $\mathbf{B} \mathrm{U}(1)$. Then a principal $\mathrm{U}(1)$-bundle on $M$ is really the same thing as a smooth map $M \to \mathbf{B} \mathrm{U}(1)$. 
+
 This perspective brings two types of objects closer together, conceptually:
 	\begin{enumerate}
 		\item $C$-valued functions
