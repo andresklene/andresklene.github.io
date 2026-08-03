@@ -8,7 +8,7 @@
 }
 
 ul,ol {margin-bottom:1em;
-   padding-left:1em}
+   padding-left:0em}
 
 .custom li::before {
   content: attr(data-bullet);
