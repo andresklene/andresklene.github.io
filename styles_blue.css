@@ -7,9 +7,6 @@
   list-style: none;
 }
 
-ul,ol {margin-bottom:1em;
-   padding-left:0em}
-
 .custom li::before {
   content: attr(data-bullet);
   padding-right: 1em;
@@ -23,7 +20,7 @@ body {
   color:var(--text-col);
   
   margin:auto;
-  max-width:31em;
+  max-width:20em;
   padding:2em;
 }
 
