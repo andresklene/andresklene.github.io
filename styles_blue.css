@@ -1,9 +1,15 @@
 :root{
-  --background-col: powderblue;
-  --text-col: black;
+  --background-col: cornflowerblue;
+  --text-col: beige;
 }
 
 ul {padding-left:1em}
+
+summary {
+  border-bottom: 1px solid;
+  cursor: pointer;
+  list-style: none; /* optional: remove default triangle if you want custom styling */
+}
 
 .custom {
   list-style: none;
@@ -29,6 +35,8 @@ body {
 h2 {
   text-align: center;
 }
+
+h3{text-align: right}
 
 h3,h4 {
   margin-bottom:0;
