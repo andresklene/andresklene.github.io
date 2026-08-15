@@ -3,6 +3,8 @@
   --text-col: black;
 }
 
+ul {padding-left:1em}
+
 .custom {
   list-style: none;
 }
@@ -20,7 +22,7 @@ body {
   color:var(--text-col);
   
   margin:auto;
-  max-width:20em;
+  max-width:19em;
   padding:2em;
 }
 
