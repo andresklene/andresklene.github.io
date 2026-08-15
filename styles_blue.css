@@ -34,7 +34,8 @@ h3,h4 {
   margin-bottom:0;
 }
 
-a {color: var(--text-col);}
+a {color: var(--text-col);text-decoration-style:dashed}
+a:hover {text-decoration-style:solid}
 
 summary {
   list-style: none;           /* removes default arrow in some browsers */
