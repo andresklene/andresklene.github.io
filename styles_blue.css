@@ -32,15 +32,17 @@ body {
   padding:2em;
 }
 
-h2 {
+h2,h5 {
   text-align: center;
 }
 
 h3{text-align: right}
 
-h3,h4 {
+h2, h3,h4 {
   margin-bottom:0;
 }
+
+h5 {margin-top:0}
 
 a {color: var(--text-col);text-decoration-style:dashed}
 a:hover {text-decoration-style:solid}
