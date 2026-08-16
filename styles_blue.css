@@ -1,6 +1,8 @@
 :root{
   --background-col: cornflowerblue;
   --text-col: beige;
+  scale:1.2;
+  transform-origin:top;
 }
 
 ul {padding-left:1em}
