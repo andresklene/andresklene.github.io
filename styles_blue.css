@@ -24,7 +24,7 @@ body {
   
   margin:auto;
   padding:1em;
-  padding-top:2em
+  margin-block:1em
 }
 
 @media (min-width: 500px) {
