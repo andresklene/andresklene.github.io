@@ -28,8 +28,7 @@ body {
   color:var(--text-col);
   
   margin:auto;
-  max-width:26em;
-  padding:1em;
+  max-width:19em;
 }
 
 h2,h5 {
