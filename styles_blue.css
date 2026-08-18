@@ -1,3 +1,8 @@
+:root {
+  color:white;
+  background-color:darkslategrey
+}
+
 ul {padding-left:1em}
 
 summary {
@@ -18,30 +23,20 @@ summary {
 body {
   font-family: sans-serif;
   line-height:1.5;
-  
-  background-color:var(--background-col);
-  color:var(--text-col);
-  
   margin:auto;
   padding:1em;
   margin-block:1em
 }
 
 @media (min-width: 500px) {
-  body {
-    width: 19em;
-  }
+  body {width: 19em;}
 }
 
-h2,h5 {
-  text-align: center;
-}
+h2,h5 {text-align: center;}
 
-h3{text-align: right}
+h3 {text-align: right}
 
-h2, h3,h4 {
-  margin-bottom:0;
-}
+h2,h3,h4 {margin-bottom:0;}
 
 h5 {margin-top:0}
 
