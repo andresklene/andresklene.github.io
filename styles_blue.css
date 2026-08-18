@@ -28,7 +28,13 @@ body {
   color:var(--text-col);
   
   margin:auto;
-  max-width:19em;
+  padding:2em
+}
+
+@media (min-width: 23em) {
+  body {
+    width: 19em;
+  }
 }
 
 h2,h5 {
