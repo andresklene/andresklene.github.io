@@ -31,7 +31,7 @@ body {
   padding:2em
 }
 
-@media (min-width: 23em) {
+@media (min-width: 960pt) {
   body {
     width: 19em;
   }
