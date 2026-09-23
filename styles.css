@@ -1,3 +1,17 @@
+body {
+  font-family: sans-serif;
+  line-height:1.5;
+  background-color:#26428b;
+  margin: auto;
+  width: 20em;
+  color:beige;
+  padding:1em;
+}
+
+h1,h2,h3,h5{text-align:right;margin-bottom:0;}
+
+h5 {margin-top:0}
+
 ul {padding-left:1em}
 
 summary {
@@ -13,17 +27,6 @@ summary {
   content: attr(data-bullet);
   padding-right: 1em;
 }
-
-body {
-  font-family: sans-serif;
-  line-height:1.5;
-  background-color:cornflowerblue;
-  color:beige;
-}
-
-h2,h3,h4 {margin-bottom:0;}
-
-h5 {margin-top:0}
 
 a {color: var(--text-col)}
 a.no {text-decoration:none}
