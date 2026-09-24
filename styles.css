@@ -31,36 +31,3 @@ summary {
 
 a {color: var(--text-col)}
 a.no {text-decoration:none}
-body {
-  font-family: sans-serif;
-  line-height:1.5;
-  background-color:#26428b;
-  margin: auto;
-  width: 20em;
-  color:beige;
-  padding:1em;
-}
-
-h1,h2,h3,h5{text-align:right}
-
-h1 {font-weight: normal;margin-bottom:0}
-h5 {margin-top:0}
-
-ul {padding-left:1em}
-
-summary {
-  cursor: pointer;
-  list-style: none; /* optional: remove default triangle if you want custom styling */
-}
-
-.custom {
-  list-style: none;
-}
-
-.custom li::before {
-  content: attr(data-bullet);
-  padding-right: 1em;
-}
-
-a {color: var(--text-col)}
-a.no {text-decoration:none}
